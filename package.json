@@ -1,0 +1,43 @@
+{
+  "name": "manju-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "probe": "tsx scripts/probe-llm.ts",
+    "probe:storyboard": "tsx scripts/probe-storyboard.ts",
+    "probe:images": "tsx scripts/probe-images.ts",
+    "probe:video": "tsx scripts/probe-video.ts",
+    "probe:seedance": "tsx scripts/probe-seedance.ts",
+    "probe:compose": "tsx scripts/probe-compose.ts",
+    "create": "tsx scripts/create.ts",
+    "migrate:xiashan": "tsx scripts/migrate-xiashan-project.ts",
+    "merge:xiashan-ep01": "tsx scripts/merge-xiashan-episode1.ts",
+    "export": "tsx scripts/export.ts",
+    "produce": "tsx scripts/produce.ts",
+    "produce:h3": "tsx scripts/produce-h3.ts"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "16.3.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.19.1",
+    "@types/react": "19.2.8",
+    "@types/react-dom": "19.2.5",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.12",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

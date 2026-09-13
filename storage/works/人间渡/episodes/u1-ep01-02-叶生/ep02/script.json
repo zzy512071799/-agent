@@ -1,0 +1,119 @@
+{
+  "title": "人间渡 第2集 可曾活过",
+  "episode": 2,
+  "unit": 1,
+  "aspectRatio": "9:16",
+  "audio": true,
+  "resolutionDraft": "480P",
+  "script": {
+    "title": "可曾活过",
+    "characters": [
+      {"id": "wensheng", "name": "闻笙", "refImagePath": "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/闻笙-正面.png"},
+      {"id": "yesheng", "name": "叶生", "refImagePath": "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png"},
+      {"id": "ali", "name": "阿离", "refImagePath": "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/阿离-动作.png"}
+    ],
+    "scenes": [
+      {"id": "old-house-coffin", "name": "旧宅门外棺前", "refImagePath": "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/旧宅门外棺前.png"},
+      {"id": "drafty-study", "name": "漏风书房", "refImagePath": "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/漏风书房.png"},
+      {"id": "merit-fantasy", "name": "状元游街幻象", "refImagePath": "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/状元桥街市.png"}
+    ]
+  },
+  "shots": [
+    {
+      "id": "c01", "segmentId": "C01", "sceneId": "title-card", "index": 0, "durationSec": 2, "wan3Mode": "t2v",
+      "wan3ReferencePaths": [], "characterIds": [],
+      "wan3Prompt": "片头过渡卡：黑场起，水墨晕染；单元名（小字）「叶生」先浮现，集名（大字）「可曾活过」后浮现，角标「第 2 集」随集名出现；停留约 2 秒后整体淡出。画面只允许出现这三层文字，不加题眼，不加旁白，不出现人物。",
+      "wan3EndState": "片头文字完全淡出，黑场自然切入旧宅门外。"
+    },
+    {
+      "id": "c02", "segmentId": "C02", "sceneId": "old-house-coffin", "index": 1, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/旧宅门外棺前.png"], "characterIds": [],
+      "wan3Prompt": "生成单镜头。首帧锁定：@图片1（旧宅门外棺前.png）锁定旧宅门槛、半开的黑漆棺材、青石地面和冷灰暮色。镜头参数：远景，静止机位，极慢推近。画面内容：风从门槛掠过，柳枝和纸幡轻动，半开的棺盖保持不动，空地安静，没有人物进入。无台词。结束状态：镜头停在棺材和门槛的关系上。音效：风声、远处极轻的唢呐尾音，无背景音乐。",
+      "wan3EndState": "棺材位于画面右侧，门槛位于左侧，冷灰光线不变。"
+    },
+    {
+      "id": "c03", "segmentId": "C03", "sceneId": "old-house-coffin", "index": 2, "durationSec": 6, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/闻笙-正面.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/道具/铃.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/旧宅门外棺前.png"], "characterIds": ["wensheng", "yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定旧宅门槛和棺材位置。镜头参数：中远景，平视，静止机位。画面内容：@图片1（闻笙-正面.png）闻笙站在门槛左侧，右手握住@图片3（铃.png）铜铃；@图片2（叶生.png）叶生站在画面右侧背对棺材，二人保持明确距离。闻笙抬眼看向叶生，叶生感到视线后缓慢转身。@图片4（旧宅门外棺前.png）旧宅和棺材保持在两人之间。无台词。结束状态：叶生正面看向闻笙，二人第一次形成稳定对视。音效：衣料摩擦、风声，铃不发声。",
+      "wan3EndState": "闻笙左侧握铃，叶生右侧面对闻笙，棺材位于两人之间。"
+    },
+    {
+      "id": "c04", "segmentId": "C04", "sceneId": "old-house-coffin", "index": 3, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/旧宅门外棺前.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定叶生面对闻笙、棺材在身后的站位。镜头参数：叶生近景，缓慢横移。画面内容：@图片1（叶生.png）叶生听见棺内传来的细微声响，目光从闻笙移向身后的@图片2（旧宅门外棺前.png）黑漆棺材；他的眉眼从疑惑变成不安，身体只向棺材方向迈出半步。无台词。结束状态：叶生停在棺边，视线落向棺内。音效：呼吸变重，木棺轻响，风声。",
+      "wan3EndState": "叶生停在棺边侧身俯视棺内，闻笙仍在门槛旁。"
+    },
+    {
+      "id": "c05", "segmentId": "C05", "sceneId": "old-house-coffin", "index": 4, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定叶生俯视棺内。镜头参数：叶生面部近景，缓慢推近。画面内容：@图片1（叶生.png）叶生的瞳孔颤动，嘴唇先合拢又微微张开；他看见棺内躺着与自己相同的脸，惊恐地抬眼看向画外的闻笙。叶生在动作完成后张口，短促、不敢相信地说：「我……死了？」无其他台词。结束状态：叶生脸上的喜色消失，只剩惊惧。音效：短促吸气、远处更声、风声。",
+      "wan3EndState": "叶生近景正面看向闻笙，嘴唇停止动作，情绪惊惧。"
+    },
+    {
+      "id": "c06", "segmentId": "C06", "sceneId": "old-house-coffin", "index": 5, "durationSec": 6, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/闻笙-正面.png"], "characterIds": ["wensheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定叶生在画外面对闻笙。镜头参数：闻笙近景，平视，固定机位。画面内容：@图片1（闻笙-正面.png）闻笙保持平静，先看向叶生，再将视线落向棺材；他的嘴唇随后稳定张合，低声回答：「你早死了。你考的那场，是死后的事。」说完保持原站位，不做多余动作。结束状态：闻笙目光回到叶生，神情没有怜悯。音效：平静人声、风声，无背景音乐。",
+      "wan3EndState": "闻笙近景，面对叶生，握铃的手垂在身侧。"
+    },
+    {
+      "id": "c07", "segmentId": "C07", "sceneId": "old-house-coffin", "index": 6, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定闻笙平静回答后的对话空间。镜头参数：叶生近景，轻微手持晃动。画面内容：@图片1（叶生.png）叶生猛地抬头，右手离开棺沿，身体向前倾半步；他急切张口反驳：「那我中了！我是中了才回来的——」说到最后声音骤停，手指僵在半空。结束状态：叶生仍然想争辩，但表情开始动摇。音效：急促呼吸、衣料摩擦、声音突然停住。",
+      "wan3EndState": "叶生前倾半步，手指停在半空，急切被动摇打断。"
+    },
+    {
+      "id": "c08", "segmentId": "C08", "sceneId": "old-house-coffin", "index": 7, "durationSec": 6, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/闻笙-正面.png"], "characterIds": ["wensheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定叶生争辩停住。镜头参数：闻笙半身近景，固定机位。画面内容：@图片1（闻笙-正面.png）闻笙不后退，只把视线落回棺中，随后平静张口说：「你中的是死后的功名。你自己看不见，因为你不想看见。」说完轻轻抬眼看向叶生，表情仍克制。结束状态：闻笙和棺材保持同一空间关系。音效：低沉平静人声、风声。",
+      "wan3EndState": "闻笙看向叶生，棺材仍位于两人之间。"
+    },
+    {
+      "id": "c09", "segmentId": "C09", "sceneId": "merit-fantasy", "index": 8, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/状元桥街市.png"], "characterIds": [],
+      "wan3Prompt": "生成单镜头。首帧锁定：从棺材边缘的暗部自然溶入幻象。镜头参数：远景，缓慢向前推进。画面内容：@图片1（状元桥街市.png）红绸、花瓣和桥上市民逐渐变得鲜艳，喜庆游街幻象从灰暗中浮现；白马从远处沿桥面正向走来，运动方向保持由远及近。无台词。结束状态：白马和红衣身影进入画面中央。音效：远处人群欢呼逐渐增强、马蹄声、唢呐，不加现代音乐。",
+      "wan3EndState": "喜庆幻象建立，白马从远处向镜头方向前进。"
+    },
+    {
+      "id": "c10", "segmentId": "C10", "sceneId": "merit-fantasy", "index": 9, "durationSec": 6, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/状元桥街市.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定白马沿桥面向前。镜头参数：中景，正面跟拍，速度与马匹同步。画面内容：@图片1（叶生.png）叶生穿红衣骑白马从画面深处向前，红花和衣袖随马步自然起伏；@图片2（状元桥街市.png）两侧百姓向他挥手欢呼。叶生抬起下巴，露出短暂满足的笑，不改变骑乘姿态。无台词。结束状态：叶生骑马接近镜头，幻象红色达到最强。音效：连续马蹄、人群欢呼、红绸猎猎。",
+      "wan3EndState": "叶生与白马位于画面中央，向前运动方向稳定。"
+    },
+    {
+      "id": "c11", "segmentId": "C11", "sceneId": "merit-fantasy", "index": 10, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定红衣叶生骑马前进。镜头参数：面部近景，轻微慢推。画面内容：@图片1（叶生.png）叶生沉浸在欢呼声中，眼神短暂明亮；红色花瓣从前景掠过，笑意停顿，眼底出现一瞬空洞，红色幻象边缘开始褪色。无台词。结束状态：叶生的笑容冻结，画面边缘出现灰白墨晕。音效：欢呼声逐渐远去，加入低沉风声。",
+      "wan3EndState": "叶生面部近景从满足转为空洞，红色边缘被灰白墨晕吞没。"
+    },
+    {
+      "id": "c12", "segmentId": "C12", "sceneId": "drafty-study", "index": 11, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/漏风书房.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧的灰白墨晕继续扩散。镜头参数：书案中景，缓慢下移。画面内容：墨晕翻页般收束成@图片1（漏风书房.png）漏风书房；@图片2（叶生.png）少年叶生伏在书案前握笔，先低头落笔，动作只完成一次。破窗、油灯、书案位置保持不变。无台词。结束状态：笔尖停在纸面，少年背脊紧绷。音效：纸张翻动、笔尖刮纸、漏风声。",
+      "wan3EndState": "叶生伏案握笔，油灯在画面右侧，破窗冷光在左侧。"
+    },
+    {
+      "id": "c13", "segmentId": "C13", "sceneId": "drafty-study", "index": 12, "durationSec": 6, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/漏风书房.png"], "characterIds": ["yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定叶生笔尖落在纸面。镜头参数：手部和侧脸近景，固定机位。画面内容：@图片1（叶生.png）叶生继续写两笔，手腕突然停住，随后偏头压住喉咙咳嗽一次；一滴血落在卷面，笔仍被他握在手中。@图片2（漏风书房.png）书案和油灯保持不变。无台词。结束状态：染血卷子和仍握笔的手占据画面中央。音效：笔尖停顿、压抑咳嗽、血滴落纸、风声。",
+      "wan3EndState": "染血卷面居中，叶生的手仍握笔，油灯火焰摇晃。"
+    },
+    {
+      "id": "c14", "segmentId": "C14", "sceneId": "drafty-study", "index": 13, "durationSec": 5, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/漏风书房.png"], "characterIds": [],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定染血卷面和摇晃的油灯。镜头参数：油灯特写，缓慢推近。画面内容：@图片1（漏风书房.png）油灯火焰在冷风中摇晃，火苗先缩小，再啪地熄灭；黑暗从灯芯向四周扩散，转成水墨黑。画面不出现可读文字。无台词。结束状态：黑暗吞没书案，只留下水墨状的灰白边缘。音效：风声、灯芯爆响、火焰熄灭声。",
+      "wan3EndState": "灯灭，画面黑白水墨化，准备溶回旧宅门外。"
+    },
+    {
+      "id": "c15", "segmentId": "C15", "sceneId": "old-house-coffin", "index": 14, "durationSec": 6, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/闻笙-正面.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/旧宅门外棺前.png"], "characterIds": ["wensheng", "yesheng"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧的水墨黑暗溶回@图片3（旧宅门外棺前.png）旧宅门外，棺材位置不变。镜头参数：中景，固定机位。画面内容：@图片1（闻笙-正面.png）闻笙站在叶生侧前方，@图片2（叶生.png）叶生仍在棺边；闻笙只向前走两步并停下，看向叶生。闻笙张口问：「你现在，还想要这个功名吗？」叶生不回答，只低头看棺沿。结束状态：闻笙和叶生重新处于同一稳定三角构图。音效：脚步、衣料摩擦、低声对白、风声。",
+      "wan3EndState": "闻笙停在叶生侧前方，叶生低头，棺材留在两人之间。"
+    },
+    {
+      "id": "c16", "segmentId": "C16", "sceneId": "old-house-coffin", "index": 15, "durationSec": 7, "wan3Mode": "reference",
+      "wan3ReferencePaths": ["storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/闻笙-正面.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/叶生.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/角色/阿离-动作.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/道具/铃.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/道具/旧药箱.png", "storage/works/人间渡/episodes/u1-ep01-02-叶生/ep02/media/images/场景/旧宅门外棺前.png"], "characterIds": ["wensheng", "yesheng", "ali"],
+      "wan3Prompt": "生成单镜头。首帧锁定：上一镜真实尾帧锁定叶生低头、闻笙站在侧前方和棺材位置。镜头参数：中近景，缓慢推近。画面内容：@图片1（闻笙-正面.png）闻笙保持平静，张口问：「你这一生，除了功名，可曾活过？」@图片2（叶生.png）叶生张了张嘴却没有声音，手指收紧棺沿，随后慢慢跪下；他的身体边缘从肩膀开始变淡，向上散成灰白烟雾。@图片4（铃.png）铃在闻笙手边第一次清越响起，烟雾收成一点光落入@图片5（旧药箱.png）旧药箱。@图片3（阿离-动作.png）阿离从药箱后探出半个脑袋，张口问：「他走啦？」闻笙合上药箱，转身走进暮色。结束状态：叶生消散，空棺留在门外，闻笙背药箱离开，阿离缩回箱后。音效：叶生无声吸气、铃响一次、药箱合上、阿离对白、风声。",
+      "wan3EndState": "叶生完全消散，铃落入合上的药箱；闻笙背箱走入暮色，空棺留在原处。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.env
+.env.local
+.env.*.local
+node_modules/
+.next/
+
+# Generated media and local build outputs
+storage/**/media/
+images/
+tsconfig.tsbuildinfo

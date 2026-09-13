@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "title": "昨晚在商K点了一个产品经理",
+  "episode": "ep01",
+  "script": {
+    "title": "昨晚在商K点了一个产品经理",
+    "episode": "ep01"
+  },
+  "model": "wan3.0-video",
+  "parameters": {
+    "ratio": "16:9",
+    "audio": true,
+    "prompt_extend": false,
+    "resolutionDraft": "480P",
+    "resolutionFinal": "1080P"
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "segmentId": "S01",
+      "index": 1,
+      "durationSec": 12,
+      "wan3Mode": "reference",
+      "characterIds": ["boss", "business-lead"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/产品创新中心-门口-v01.png", "episodes/ep01/media/images/老板-三视图-v02.png", "episodes/ep01/media/images/角色/业务负责人-半身-v01.png"],
+      "lines": [
+        {"characterId": "boss", "text": "今天不谈工作，放松一下。", "voice": "中年男性低沉松弛、语气理所当然"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，写实黑色幽默。0-3秒：老板带业务团队走到玻璃门前，旧商K霓虹和“产品创新中心”招牌同框。3-6秒：老板指向新招牌，说：“今天不谈工作，放松一下。”6-9秒：业务负责人抬头看招牌。9-12秒：老板推门，众人跟进，镜头停在新招牌下方。老板是中年男性低沉松弛声；脚步、门响、街道底噪和暗调配乐由wan3.0生成。",
+      "note": "门口场景文字由场景卡承载；不要让角色挡住“产品创新中心”招牌。"
+    },
+    {
+      "id": "s02",
+      "segmentId": "S02",
+      "index": 2,
+      "durationSec": 22,
+      "wan3Mode": "reference",
+      "characterIds": ["boss", "product-director", "business-lead", "pm-01", "pm-02", "pm-03"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/产品创新中心-包间-v01.png", "episodes/ep01/media/images/老板-三视图-v02.png", "episodes/ep01/media/images/产品总监-三视图-v02.png", "episodes/ep01/media/images/角色/业务负责人-半身-v01.png", "episodes/ep01/media/images/一号PM-正面-v01.png", "episodes/ep01/media/images/二号PM-正面-v01.png", "episodes/ep01/media/images/三号PM-正面-v02.png"],
+      "lines": [
+        {"characterId": "boss", "text": "我们这群业务方要求很高，可得伺候好了。", "voice": "中年男性低沉、松弛、带命令感"},
+        {"characterId": "product-director", "text": "我们家的PM，您放心。", "voice": "中年男性圆滑热情、句尾带笑"}
+      ],
+      "wan3Prompt": "生成单镜头。画面采用横屏16:9，包间使用深蓝紫灯光，整体是写实黑色幽默。0-3秒，老板把酒杯放在桌上，产品总监站到老板身旁，业务负责人坐在对面。3-7秒，老板拍业务负责人的肩膀，并说：“我们这群业务方要求很高，可得伺候好了。”7-10秒，产品总监举起酒杯，对老板点头。10-14秒，产品总监看向业务负责人，并说：“我们家的PM，您放心。”14-17秒，产品总监在包间内打响指；包间门从外侧打开。17-22秒，三位年轻女PM出现在门口，作为下一镜头的连续承接：一号穿深海军蓝西装并抱着MacBook，二号穿珊瑚橙外套并拿着手机数据看板，三号穿炭灰西装和黑色高领并手持文件夹。三位女PM留在门口，下一镜头再正式走进包间；门口不能出现男性新人物，老板和产品总监继续留在包间内。老板和产品总监使用不同的中年男性音色；酒杯声、键盘声、门响、脚步声和轻快企业配乐由wan3.0生成。",
+      "note": "电子屏只作为环境锚点，不依赖模型重写屏幕文字。"
+    },
+    {
+      "id": "s03",
+      "segmentId": "S03",
+      "index": 3,
+      "durationSec": 18,
+      "wan3Mode": "reference",
+      "characterIds": ["pm-01", "pm-02", "pm-03", "product-director"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/产品创新中心-包间-v01.png", "episodes/ep01/media/images/一号PM-正面-v01.png", "episodes/ep01/media/images/二号PM-正面-v01.png", "episodes/ep01/media/images/三号PM-正面-v02.png", "episodes/ep01/media/images/产品总监-三视图-v02.png"],
+      "lines": [
+        {"characterId": "product-director", "text": "今儿新到了几款，NPDP满级的、大厂出来的、还有个刚被优化的——各有所长。", "voice": "中年男性圆滑介绍、语气像推介套餐"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，写实包间。0-3秒：包间门打开，一号PM先入场，深海军蓝西装，抱MacBook。3-6秒：二号PM快步入场，珊瑚橙外套，举起手机数据看板。6-9秒：三号PM最后入场，炭灰西装、黑色高领、低马尾、细框眼镜，手持文件夹。9-13秒：三人分别坐到长桌三侧。13-18秒：产品总监从她们身后走过，说：“今儿新到了几款，NPDP满级的、大厂出来的、还有个刚被优化的——各有所长。”镜头按一号、二号、三号快速切三个半身。总监用中年男性圆滑热情声，脚步、门响和企业轻音乐由wan3.0生成。",
+      "note": "三位PM只做职责和气质展示，不在本段加入额外台词。"
+    },
+    {
+      "id": "s04",
+      "segmentId": "S04",
+      "index": 4,
+      "durationSec": 18,
+      "wan3Mode": "reference",
+      "characterIds": ["pm-01", "product-director"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/一号PM-正面-v01.png", "episodes/ep01/media/images/产品创新中心-包间-v01.png", "episodes/ep01/media/images/产品总监-三视图-v02.png"],
+      "lines": [
+        {"characterId": "product-director", "text": "一号，擅长B端SaaS商业化重构。", "voice": "中年男性圆滑热情"},
+        {"characterId": "pm-01", "text": "需求录入、权限管理、付费墙、转化漏斗，都可以重新设计。", "voice": "年轻女性中低音、干练、语速偏快"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，写实包间。0-3秒：一号PM把MacBook转向业务方，后台原型亮起。3-6秒：产品总监侧身介绍：“一号，擅长B端SaaS商业化重构。”6-10秒：一号PM连续点击三个界面：需求录入、权限管理、付费墙。10-15秒：她说：“需求录入、权限管理、付费墙、转化漏斗，都可以重新设计。”15-18秒：她合上电脑，抬眼看向业务方。年轻女性中低音、干练快速；点击声、键盘声和短促电子配乐由wan3.0生成。",
+      "note": "不要求模型生成可核对的具体原型文字；屏幕可用后续首帧资产锁定。"
+    },
+    {
+      "id": "s05",
+      "segmentId": "S05",
+      "index": 5,
+      "durationSec": 18,
+      "wan3Mode": "reference",
+      "characterIds": ["pm-02", "product-director"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/二号PM-正面-v01.png", "episodes/ep01/media/images/产品创新中心-包间-v01.png", "episodes/ep01/media/images/产品总监-三视图-v02.png"],
+      "lines": [
+        {"characterId": "product-director", "text": "二号，精通C端用户增长。", "voice": "中年男性圆滑热情"},
+        {"characterId": "pm-02", "text": "用户画像、增长模型、裂变机制、长尾场景，我都能适配。", "voice": "年轻女性明亮中高音、轻快、带社交型笑意"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，写实包间。0-3秒：二号PM滑动手机，用户漏斗图快速上升又骤然变细。3-6秒：产品总监说：“二号，精通C端用户增长。”6-11秒：二号PM把手机推近镜头，依次划过用户画像、增长模型、裂变机制。11-16秒：她说：“用户画像、增长模型、裂变机制、长尾场景，我都能适配。”16-18秒：她把手机转向业务方，露出轻快笑意。年轻女性明亮中高音；手机滑动声和轻快配乐由wan3.0生成。",
+      "note": "二号PM的声音必须明显区别于一号和三号。"
+    },
+    {
+      "id": "s06",
+      "segmentId": "S06",
+      "index": 6,
+      "durationSec": 20,
+      "wan3Mode": "reference",
+      "characterIds": ["pm-03", "product-director", "boss", "business-lead"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/三号PM-正面-v02.png", "episodes/ep01/media/images/产品创新中心-包间-v01.png", "episodes/ep01/media/images/产品总监-三视图-v02.png", "episodes/ep01/media/images/老板-三视图-v02.png", "episodes/ep01/media/images/角色/业务负责人-半身-v01.png", "episodes/ep01/media/images/屏幕/DAU复苏三年战略路线图-v01.png"],
+      "lines": [
+        {"characterId": "product-director", "text": "三号是大厂出来的敏捷PM，NPDP体系学得透，产品管线规划得严，还能扛从0到1的新品孵化。", "voice": "中年男性圆滑热情"},
+        {"characterId": "boss", "text": "能不能今晚就见效？", "voice": "中年男性低沉松弛"},
+        {"characterId": "pm-03", "text": "也可以把长期目标拆成短期愿景。", "voice": "年轻女性偏低、清冷、克制"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，写实包间。0-4秒：三号PM合上手册，推一下细框眼镜，三年排期表落在桌面。4-8秒：产品总监说：“三号是大厂出来的敏捷PM，NPDP体系学得透，产品管线规划得严，还能扛从0到1的新品孵化。”8-11秒：老板指向排期表，问：“能不能今晚就见效？”11-16秒：三号PM抬眼，说：“也可以把长期目标拆成短期愿景。”16-20秒：业务负责人伸手指向她，三号PM起身准备坐到业务方旁边。她使用低沉清冷女声；翻页、椅子移动和包间底噪由wan3.0生成。",
+      "note": "三号PM是主角，镜头停留时间最长，但不做夸张美颜或暧昧化处理。"
+    },
+    {
+      "id": "s07",
+      "segmentId": "S07",
+      "index": 7,
+      "durationSec": 18,
+      "wan3Mode": "reference",
+      "characterIds": ["pm-03", "business-lead"],
+      "wan3ReferencePaths": ["episodes/ep01/media/images/三号PM-正面-v02.png", "episodes/ep01/media/images/业务负责人-半身-v01.png", "episodes/ep01/media/images/Jira任务页-待评审-v01.png"],
+      "lines": [
+        {"characterId": "pm-03", "text": "我比较擅长产品战略、市场研究、生命周期管理，多目标排期也能做。", "voice": "年轻女性偏低、清冷、稳定"},
+        {"characterId": "business-lead", "text": "就她了。", "voice": "男性业务负责人，理性、直接"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，写实包间。0-4秒：三号PM坐到业务负责人旁边，打开MacBook，Jira待评审列表出现。4-10秒：她快速点击新建任务，键盘不停。10-15秒：她说：“我比较擅长产品战略、市场研究、生命周期管理，多目标排期也能做。”15-18秒：业务负责人看向她，说：“就她了。”镜头落在密集的待评审任务上。三号PM使用清冷稳定女声；键盘、录音笔和包间底噪由wan3.0生成。",
+      "note": "Jira页面使用屏幕资产作为参考，后续首帧再锁文字。"
+    },
+    {
+      "id": "s08",
+      "segmentId": "S08",
+      "index": 8,
+      "durationSec": 25,
+      "wan3Mode": "first_frame",
+      "characterIds": ["pm-03", "business-lead"],
+      "firstFramePath": "episodes/ep01/media/images/S08-首帧-DAU分析书-v01.png",
+      "frameSourcePaths": ["episodes/ep01/media/images/商业计划书-DAU分析-v01.png"],
+      "lines": [
+        {"characterId": "business-lead", "text": "分析一下最近DAU为什么连续三周下跌，用户留存怎么都拉不起来。", "voice": "男性业务负责人，直接、急于要结论"},
+        {"characterId": "pm-03", "text": "下跌是大盘普跌，还是分渠道掉了？", "voice": "年轻女性偏低、清冷、稳定"},
+        {"characterId": "pm-03", "text": "是新用户质量下降，还是老用户流失？", "voice": "年轻女性偏低、清冷、稳定"},
+        {"characterId": "pm-03", "text": "是产品体验问题，还是投放策略问题？", "voice": "年轻女性偏低、清冷、稳定"},
+        {"characterId": "business-lead", "text": "都行，你给个根因和解决方案就行。", "voice": "男性业务负责人，敷衍直接"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，首帧已锁定DAU分析书文字。0-3秒：业务负责人把分析书推到三号PM面前。3-7秒：他说：“分析一下最近DAU为什么连续三周下跌，用户留存怎么都拉不起来。”7-10秒：三号PM指下降曲线，问：“下跌是大盘普跌，还是分渠道掉了？”10-13秒：她翻到留存页，问：“是新用户质量下降，还是老用户流失？”13-16秒：她抬眼问：“是产品体验问题，还是投放策略问题？”16-20秒：业务负责人把文件再推近，说：“都行，你给个根因和解决方案就行。”20-25秒：三号PM盯着空白文档，手指停在触控板上。清冷女声、纸张摩擦、包间底噪和克制配乐由wan3.0生成。",
+      "note": "商业计划书文字和曲线必须由道具图承载，不让模型自由改标题。"
+    },
+    {
+      "id": "s09",
+      "segmentId": "S09",
+      "index": 9,
+      "durationSec": 21,
+      "wan3Mode": "first_frame",
+      "characterIds": ["pm-03", "boss"],
+      "firstFramePath": "episodes/ep01/media/images/S09-首帧-飞书消息-v01.png",
+      "frameSourcePaths": ["episodes/ep01/media/images/老板手机-飞书消息-v01.png"],
+      "lines": [
+        {"characterId": "pm-03", "text": "老板，我大概知道问题在哪儿了。", "voice": "年轻女性偏低、清冷，突然变得职业圆滑"},
+        {"characterId": "boss", "text": "根因呢？", "voice": "中年男性低沉、期待一个简单答案"},
+        {"characterId": "pm-03", "text": "根因比较复杂，涉及产品、市场、渠道和组织协同。", "voice": "年轻女性偏低、稳定、熟练包装"},
+        {"characterId": "pm-03", "text": "因为我们还没有完成增长闭环。", "voice": "年轻女性偏低、平直、像汇报结论"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，首帧已锁定飞书消息。0-3秒：三号PM看完手机消息，抬眼看老板。3-6秒：她说：“老板，我大概知道问题在哪儿了。”6-8秒：老板逼近一步，问：“根因呢？”8-13秒：三号PM迅速打开电脑，曲线从下降切到上升。13-17秒：她说：“根因比较复杂，涉及产品、市场、渠道和组织协同。”17-21秒：她点一下上升曲线，说：“因为我们还没有完成增长闭环。”老板立刻点头，产品总监不入镜、不发言。三号PM保持同一清冷音色但语气转为熟练汇报；手机提示音、键盘声和克制配乐由wan3.0生成。",
+      "note": "这是三号PM从看穿问题到选择自保的转折段，不能演成突然真诚解决问题。"
+    },
+    {
+      "id": "s10",
+      "segmentId": "S10",
+      "index": 10,
+      "durationSec": 8,
+      "wan3Mode": "first_frame",
+      "characterIds": ["pm-03", "boss"],
+      "firstFramePath": "episodes/ep01/media/images/S10-首帧-Jira待评审-v02.png",
+      "frameSourcePaths": ["episodes/ep01/media/images/S10-终态-Jira已完成-v02.png"],
+      "lines": [
+        {"characterId": "boss", "text": "从今天起，你来负责整个产品中心。", "voice": "中年男性低沉、满意、像宣布理所当然的结果"},
+        {"characterId": "pm-03", "text": "好的，老板。", "voice": "年轻女性偏低、清冷、表面顺从"}
+      ],
+      "wan3Prompt": "生成单镜头，横屏16:9，首帧已锁定经营会和Jira待评审状态。0-2秒：老板站在上升曲线PPT前，说：“从今天起，你来负责整个产品中心。”2-4秒：三号PM职业微笑，说：“好的，老板。”4-6秒：她低头点击同一条Jira任务，状态从“待评审”切换为“已完成”。6-8秒：镜头推近绿色完成状态，再切回她的笑脸。老板低沉满意，三号PM清冷克制；鼠标点击声和冷白会议室底噪由wan3.0生成，不新增字幕或屏幕文字。",
+      "note": "结尾屏幕文字使用已完成状态资产，不能让模型重新生成。"
+    }
+  ],
+  "qualityGate": {
+    "requiresFrameApproval": true,
+    "frameApprovalStatus": "pending",
+    "paidTasksCreated": false
+  }
+}

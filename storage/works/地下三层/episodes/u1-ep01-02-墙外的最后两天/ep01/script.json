@@ -1,0 +1,349 @@
+{
+  "script": {
+    "title": "地下三层 第1集 风向变了",
+    "synopsis": "隔离墙封了十年，第七段出现结构性缺口，风向由内吹变外吹。墙体维护工沈砚上墙做记录时闻到缝里的气味，当场停了他打了十年的抑制剂。他翻进缺口，第一次隔着墙看见墙内那座停在十年前的城——城在动。撤下来时一根钢筋贯穿他的小腿，走到第四步就不瘸了。墙下有人等他，档案封皮上印着一个数字：11。",
+    "artStyle": "cinematic live-action photorealism, anamorphic 35mm look, desaturated cold-grey palette broken by a single warm practical light source, heavy airborne dust and fine ash, matte damp concrete and rusted steel, hard directional key light with deep crushed shadows, shallow depth of field, fine film grain, natural skin texture with visible pores and stray hair strands, no beauty retouching, no smoothed skin, no makeup sheen, no anime, no illustration, no 3D render",
+    "aspectRatio": "9:16",
+    "musicDirection": "有配乐，但配乐只做一件事：加压。编制全剧固定——低音提琴的持续拉弓、极低的合成低频、金属摩擦的余响；没有鼓组、没有可数的拍子、没有抒情旋律线、没有人声吟唱。音量跟着戏走：有台词的段压到台词之下，无台词的压迫段单向增厚且从不解决、不落板。全剧保留两类绝对静音，配乐在这两处主动让位：一是无人应答的空白（如第1集沈砚报完缺口后的四秒），二是每一集的收尾静默（第1集最后三秒连呼吸也停，只剩窗外的风）。这两处之所以有效，正因为别处有配乐可以被抽走。感染体从不嚎叫，恐怖仍然由安静承担。",
+    "musicDirectionEn": "There is a score, and it does exactly one thing: apply pressure. Fixed instrumentation across the whole series — sustained double-bass bowing, a very low synth sub-bass, and the ring-out of scraped metal. No drum kit, no countable pulse, no lyrical melodic line, no vocal humming. Level follows the drama: under dialogue it sits below the voices; in wordless pressure beats it thickens in one direction and never resolves or lands. Two kinds of absolute silence are reserved, and the score yields to both: the unanswered gap (the four seconds after Shen Yan reports the breach in ep01) and the closing silence of every episode (in ep01 the final three seconds, where even the breathing stops and only the wind outside remains). Those two work precisely because elsewhere there is music to take away. The infected never howl; the horror is still carried by quiet.",
+    "characters": [
+      {
+        "id": "shenyan",
+        "name": "沈砚",
+        "role": "protagonist",
+        "appearance": "A 20-year-old East Asian man, strikingly handsome in a cold austere way: tall, lean and long-limbed with model-like proportions, small head relative to height, long neck, square straight shoulders, narrow waist. Sharply cut jawline, high cheekbones, straight nose bridge, deep-set dark eyes with a steady unblinking gaze, thick black hair falling slightly over the forehead. Unusually pale skin with visible pores and faint blue veins at the temple and inner wrists. He wears a black one-piece wall-maintenance coverall, worn and faded but cut close to the body, waist cinched by a faded webbing harness belt, sleeves rolled precisely to mid-forearm showing lean corded forearms; scuffed black steel-toe work boots. Thin calluses on his knuckles, and a dense cluster of small old needle scars on the inner left forearm. From the car scene onward, a very faint pale ash-grey ring surfaces on the outer edge of his RIGHT iris only.",
+        "voice": "二十岁男性，音高偏低，嗓音干净发冷，语速慢，句子极短；报数据时平得像念表格，被人问及自己时音量反而更低",
+        "voiceEn": "Male, twenty, low pitch, a clean cold timbre, slow speaking rate, extremely short sentences; he reads out data as flatly as reading a form, and when asked about himself his volume drops rather than rises",
+        "personality": "十年每天给一道墙刷漆检修，把自己按成一个迟钝的普通人；不解释，不申辩，用重复动作代替情绪；闻到墙内气味会先咽口水，然后才想起来后退。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/角色/沈砚-正面.png",
+        "voiceId": null
+      },
+      {
+        "id": "ruanqing",
+        "name": "阮清",
+        "role": "supporting",
+        "appearance": "A 31-year-old East Asian woman, athletic and composed, short black hair tucked behind the ears, flat unreadable expression. She wears a plain dark grey tactical combat uniform with absolutely no unit patches, no insignia, no name tape and no flag — completely blank shoulders and chest; a slim belt rig with empty pouches; black tactical boots. A small faded numeric tattoo behind her right ear, partly visible.",
+        "voice": "三十一岁女性，中低音，吐字清晰，节奏是下命令的节奏；每一句之间留一拍空白，不填补",
+        "voiceEn": "Female, thirty-one, mid-to-low register, crisp articulation, the cadence of someone issuing orders; she leaves a full beat of silence between sentences and never fills it",
+        "personality": "服从到极致，因此在需要不服从时干净利落；不解释动机，别人只能从她走的方向猜。看见伤口先陈述事实，被否认后不追问。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/角色/阮清-三视图.png",
+        "voiceId": null
+      },
+      {
+        "id": "fujia",
+        "name": "副驾（第3集尸变的那个人）",
+        "role": "supporting",
+        "appearance": "A man in his late twenties, ordinary build, short messy black hair and tired eyes, wearing a cheap grey work jacket over a white t-shirt and dark blue work trousers, sitting in the front passenger seat scrolling short videos on a phone. A thin translucent patch of indeterminate colour clings to the back of his neck and is creeping upward. The same face must appear in episode 3.",
+        "voice": "二十多岁男性，中音，语气随意，带一点鼻塞感",
+        "voiceEn": "Male, late twenties, mid register, casual tone, faintly congested",
+        "personality": "对自己身上发生的事一无所知；抱怨天气一样抱怨车里闷，而他挠的正是感染在爬的那一块。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/角色/副驾-三视图.png",
+        "voiceId": null
+      },
+      {
+        "id": "dispatch",
+        "name": "对讲机调度（画外）",
+        "role": "voice-only",
+        "appearance": "Never seen. Voice only, coming through a handheld radio speaker.",
+        "voice": "性别不限，成年，公事化，被电流底噪压扁；关键是回话之前那四秒的空",
+        "voiceEn": "Adult, gender unspecified, procedural delivery, flattened by radio static; what matters is the four seconds of dead air before the reply",
+        "personality": "程序化。四秒的犹豫不是设计给观众听的解释，是唯一的信息。",
+        "refImagePath": null,
+        "voiceId": null
+      }
+    ],
+    "scenes": [
+      {
+        "id": "episode-1-scene-0",
+        "index": 0,
+        "title": "隔离墙第七段 · 检修吊篮",
+        "location": "A steel maintenance cradle hanging at the ninth level of a thirty-seven-metre concrete isolation wall, exterior daylight. The wall face is flat featureless grey, streaked with paint layers and hairline cracks; a fresh structural crack runs across it. Inside the cradle, a chipped enamel work-notice plate is riveted to the steel panel beside the winch drum. Fine ash drifts in the air.",
+        "timeOfDay": "day",
+        "summary": "沈砚在第九层给一道新裂缝做记录，发现风是从缝里出来的；他停了那一支抑制剂，把须知牌上『漏用即报』的漆皮抠掉一块，然后上报缺口。对讲机沉默了四秒才回。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/检修吊篮.png"
+      },
+      {
+        "id": "episode-1-scene-1",
+        "index": 1,
+        "title": "缺口 · 内侧",
+        "location": "The inner face of the breach, exterior daylight: a narrow inspection platform inside the wall body looking out over an abandoned port district untouched for ten years — seized gantry cranes, containers toppled into half-collapsed stacks, and a street surface of dried silt cracked into turtle-shell plates under a film of grey dust. Absolutely no standing water anywhere. Utterly still.",
+        "timeOfDay": "day",
+        "summary": "他翻进缺口，第一次隔着墙看向内侧。安静得能听见自己耳朵响。三秒之后那片东西开始动——很多，很慢，不出声。他的嘴唇动起来，数到十七停了。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/缺口内侧.png"
+      },
+      {
+        "id": "episode-1-scene-2",
+        "index": 2,
+        "title": "墙体断面 · 检修平台",
+        "location": "The broken concrete cross-section inside the wall body plus the wooden-planked inspection platform in front of it, exterior daylight. Embedded in the concrete face is a desiccated brown human hand, fingers splayed, with several shallow grooves scratched into the concrete beside it. Above, rusted scaffolding sags where one corner has given way; a length of rebar hangs down.",
+        "timeOfDay": "day",
+        "summary": "他把手电打向断面，里面嵌着一只干枯的手，指甲刮出的槽是从里往外的。头顶金属撕裂，脚手架垮了一角，一根钢筋从上往下贯穿他的右小腿。他先抬头确认上面没有第二根，然后才低头看自己的腿。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/墙体断面.png"
+      },
+      {
+        "id": "episode-1-scene-3",
+        "index": 3,
+        "title": "墙下 · 检修道",
+        "location": "A narrow service road running along the base of the thirty-seven-metre wall, exterior daylight. The wall fills one whole side of the frame. An unmarked dark van is parked on the road. Fine ash and grit on the concrete; distant wall-maintenance machinery.",
+        "timeOfDay": "day",
+        "summary": "吊篮落地，他一瘸一拐走出三步，第四步不瘸了。他把裤腿卷起来看了两遍。一辆没有标识的车停在检修道上，下来的女人手里一份纸质档案，封皮上印着 11。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/墙下检修道.png"
+      },
+      {
+        "id": "episode-1-scene-4",
+        "index": 4,
+        "title": "车内",
+        "location": "The interior of an unmarked passenger van, daylight through the windows. Worn fabric seats, five occupants, air-conditioning vents, a phone screen glowing in the front passenger's hands. Flat overcast light from outside, the window glass carrying a faint reflection.",
+        "timeOfDay": "day",
+        "summary": "四个人加他，五个。他抬眼扫过去，每个人身上都浮着薄薄一层说不清颜色的东西；副驾那一层有厚度，正贴着后颈往上爬。他右眼浮出一道灰环，转头看车窗——玻璃上映着他自己，浓得像浸透了的布。他抬袖子擦了一下那块反光。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/车内.png",
+        "note": "机位从后排往前，够得到副驾与前排——场7 的『抬眼扫过去』需要这个纵深。**这张卡偏白偏亮，是六张里唯一跑出冷灰调的**（大面积车窗进平光的结果）。出 S06 首帧时要靠硬光把它压回风格锚，不要拿这张的亮度当基准。车型必须与『墙下检修道』那张的载客面包车一致。"
+      },
+      {
+        "id": "episode-1-scene-5",
+        "index": 5,
+        "title": "墙外维护站 · 宿舍",
+        "location": "A four-square-metre dormitory room at a wall-maintenance station, night interior. A single bed, a small desk, one drawer, an old maintenance manual, a small square mirror on the wall, one bare warm bulb as the only light source. Window dark, wind outside.",
+        "timeOfDay": "night",
+        "summary": "他把那盒抑制剂推进抽屉最深处，压上一本旧维护手册，关上；然后又拉开一次，把手册挪正，重新关上。今天那一支他没有打。他坐在床沿，小腿上的洞已经长成一小块颜色更浅的新肉。他用拇指按下去，越按越深，眼睛一直看着镜子。",
+        "refImagePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/宿舍.png"
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "sceneId": "episode-1-scene-0",
+      "index": 0,
+      "segmentId": "S01",
+      "durationSec": 24,
+      "wan3Mode": "first_frame",
+      "shotSize": "medium",
+      "cameraMove": "push-in",
+      "cameraAmplitude": "small",
+      "cameraSpeed": "slow",
+      "characterIds": [
+        "shenyan"
+      ],
+      "action": "吊篮停在第九层，他正在给一道新裂缝做记录。笔尖停住——风是从裂缝里出来的，不是灌进去。手背上的汗毛立起来。他把脸凑近缝口，喉结动了一下，咽了一口口水，然后才想起来往后退半步。",
+      "actionEn": "The cradle hangs at the ninth level; he is logging a fresh crack. His pen stops — the air is coming OUT of the crack, not being sucked in. The fine hairs on the back of his hand lift. He leans his face closer to the gap, his throat moves as he swallows, and only then does he remember to step back half a pace.",
+      "lines": [],
+      "sfx": "钢索的细微金属声；风从窄缝出来的气声，像有人贴着缝在呼吸；没有音乐，只有一条低到像环境噪音的低频",
+      "sfxEn": "Faint metallic creak of the hoist cables; air hissing out of the narrow crack as if someone were breathing against it from the far side; no music, only a sub-bass drone so low it reads as room tone",
+      "firstFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S01-首帧.png",
+      "lastFramePath": null,
+      "note": "全剧第一个镜头，也是试跑段：无台词、无中文字牌、不涉及音色一致性。先用它验证通路、9:16 与 prompt_extend:false。 首帧已定稿：吊篮悬空两索、可见空隙、腰高栏杆、条纹钢踏板、空白搪瓷端板、带笼工作灯、墙面新裂缝、下方隐于灰霾；他贴身黑连体服、袖口卷到小臂中段、安全绳挂在踏板、左手夹板右手笔、笔尖离纸还差几厘米、脸已经抬起来。**他此刻还没凑近裂缝**，凑近是段内动作。 **2026-09-02 首帧已重出**：原版他的脸已经抬起来在看裂缝，和提示词「目光从夹板移到裂缝」相矛盾——首帧已经越过了这个动作。现版本他低头在写字、笔尖压在纸面上，「笔尖停住→抬眼→抬头」这一串才有地方发生。同时按剧本「**特写**：他咽了一口口水」把运镜改成一镜到底的连续推进：咽口水那一刻推成下颌与喉部的近特写，喉结那一下必须够大能看清皮肤被牵动——这是开篇 20 秒里唯一一个「他不对」的信号，中景在手机上读不出来。 **2026-09-03 改写（480P 首跑后）**：首跑 18 秒的输出末帧他还在写字，「咽口水的喉结近特写」完全没拍到——而那是开篇二十秒里唯一一个「他不对」的信号、本集四件必做之一。根因不是时长不够，是**这条 prompt 没有逐秒锚点**，模型把整段耗在第一个动作上；同一次跑的 S02 有「前四秒／第五秒起」这类锚点，结构被完整执行。因此改法是：动作表改成逐秒分配（写字5s／停笔1s／抬眼抬头3s／凑近5s／喉结近特写6s／后退5s），时长 18→24 秒，并把第14-19秒明确写成「不许再推也不许退，停住让观众看清」。另加 J-cut：第23秒起提前进无线电电流嘶声，接下一段。 **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：① 删掉了原本写在 prompt 开头的工程说明（「【图生视频·首帧】首帧已经锁定了…本提示词只写运动与运镜」这一类）——prompt 是原样发给模型的（/api/produce 只做 trim），这种写给我们自己看的话会被当成画面内容读，手册的全部示例里没有一句 meta。② 按手册公式「背景音乐 = 配乐 + 风格」给配乐补上风格词「暗调氛围 drone 风格」，原先七段只有乐器清单与禁令、一个风格词都没有。③ 负向句改写成正向描述：wan3.0-video **没有 negative_prompt 参数**（API 手册的请求字段只有 model / input.prompt / input.media / parameters{resolution,ratio,duration,audio,seed,prompt_extend,watermark}），而 Prompt 手册第 12 行把 prompt 定义为「正向提示词」，写「不要鼓组／不要可数的拍子／不要人声吟唱」等于把这些词直接喂进去；现在统一写成「无节拍、无旋律的持续音床……无打击乐器，配乐中无人声吟唱」。手册承认的负向开关只有「生成单镜头」「无台词」「无背景音乐」与运镜的「固定镜头」，这几个保留原样。 另：逐秒锚点保留不动（那是 480P 首跑验证过有效的东西）。",
+      "wan3Prompt": "生成单镜头。\n运动：**严格按秒推进，每个动作只占它自己那一段时间。**\n第0-5秒：他低着头在写字，笔尖压在纸面上小幅划动。\n第5秒：笔尖停住，不再移动，但没有离开纸面。\n第6-8秒：他先只抬起眼睛，隔了半秒才把头抬起来，转向墙面那道新裂缝。手背上的汗毛竖起来。\n第9-13秒：他把脸朝裂缝凑近约十厘米，肩膀跟着前送。\n第14-19秒：喉结明显地上下动一次，咽了一口口水，喉部皮肤被牵动，然后停住不动。\n第20-24秒：他后退半步，重心落回脚跟，握笔的手把笔按在夹板上。\n全程吊篮随他重心变化极轻微地前后晃动，两根钢丝绳轻微颤动，灰白色浮尘被风从裂缝里推出来，斜斜地飘过他面前。\n运镜：一镜到底。第0-5秒固定机位，取他的上半身与夹板。第6秒起开始极缓慢推进，第9秒起继续推进。**第14秒到第19秒，画面里只剩他的下颌、喉部与裂缝边缘，是一个真正的近特写——喉结那一下必须在画面里足够大，能看清皮肤被牵动；这五秒机位保持不动，让观众看清。**第20秒起镜头极缓慢退开一点，停在他上半身与裂缝之间。全程是这一条连续的推进，同一机位到底。\n声音描述：无台词。音效：钢丝绳承重时细微的金属吱呀声；风从窄缝里挤出来的气声，像有人贴着缝在呼吸；他咽口水时喉咙里一声很轻的钝响；工装布料摩擦声；三十七米高空持续的低频风噪。**第23秒起，一层极轻的窄带无线电电流嘶声提前进来，压在风声底下，到收尾时仍然压在风声之下。**背景音乐：暗调氛围 drone 风格配乐，一条低音提琴的持续拉弓叠一层极低的合成低频。起手音量低到几乎听不出，二十四秒内单向抬起半档，到他后退那半步时已经能被听见。全程是无节拍、无旋律的持续音床，只有厚度与音高的极缓慢变化。无打击乐器，配乐中无人声吟唱。"
+    },
+    {
+      "id": "s02",
+      "sceneId": "episode-1-scene-0",
+      "index": 1,
+      "segmentId": "S02",
+      "durationSec": 22,
+      "wan3Mode": "first_frame",
+      "shotSize": "close-up",
+      "cameraMove": "tilt-down",
+      "cameraAmplitude": "small",
+      "cameraSpeed": "slow",
+      "characterIds": [
+        "shenyan",
+        "dispatch"
+      ],
+      "action": "镜头先停在铆在铁板上那块掉漆的作业须知牌上，三条喷字清楚可读。他从内袋摸出一支银灰色针剂，拇指顶开盖子，针尖抵住左小臂内侧一片密集的旧针眼——停住。风又从缝里出来一次。他把盖子按回去，针剂插回内袋，顺手把须知牌上『漏用即报』那四个字的漆皮抠掉一小块，然后按下对讲机。",
+      "actionEn": "The camera holds first on the chipped enamel work-notice plate riveted to the steel panel, its three stencilled rules clearly legible. He pulls a silver-grey injector from an inner pocket, flicks the cap off with his thumb, sets the needle against a dense cluster of old puncture scars on his inner left forearm — and stops. Air pushes out of the crack again. He presses the cap back on, returns the injector to his pocket, scratches a flake of paint off the last line of the notice plate, then keys the radio.",
+      "lines": [
+        {
+          "characterId": "shenyan",
+          "text": "第七段结构性缺口，第九层。风向逆转。",
+          "emotion": "平得像念表格"
+        },
+        {
+          "characterId": "dispatch",
+          "text": "……收到。原地等指令，不要下去。",
+          "emotion": "公事化，但回话之前空了四秒"
+        }
+      ],
+      "sfx": "铁板的空响；塑料盖的一声轻响；指甲刮漆皮；对讲机电流底噪，以及那四秒的空",
+      "sfxEn": "The hollow ring of the steel panel; a small click of the plastic cap; a fingernail scraping paint; radio static, and the four seconds of dead air",
+      "firstFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S02-首帧.png",
+      "lastFramePath": null,
+      "note": "同场硬切：为像素级保住须知牌文字，本段始终使用自己的定稿首帧，不继承 S01 的真实尾帧。**模式已于 2026-09-02 从『全能参考』改回『首帧』**——原方案的理由是『有台词段走全能参考才能塞 reference_audio』，但本段是沈砚**第一次**说话、也是音色取样的源头，没有任何音色样本可参考，因此完全不需要 reference 模式；而 `reference_*` 与 `first_frame` 在同一请求里互斥，继续走 reference 就等于放弃首帧，须知牌那三行中文只能交给 wan3 从参考图里自己重绘——那是本集前 60 秒最脆的东西。改回首帧后文字被像素锁死。**沈砚的音色仍然从本段输出里截取**，再喂给 S05，两段一致性不受影响。须知牌的中文必须由 first_frame 承载，不许让 wan3 重绘。出 S02 首帧时：`道具/须知牌.png` 那块牌必须装在 `场景/检修吊篮.png` 里预留的那块**空白搪瓷端板**上，**不许照搬道具卡自带的混凝土柱**——道具卡只负责文字与牌面质感，安装位置由吊篮卡决定。 首帧已定稿：须知牌三行字像素级保住，且已按约束装在**铆接钢板端板**上而不是混凝土柱上，周围是吊篮栏杆、盘线、条纹踏板、熄灭的带笼灯，远处冷调阴天与隐约的辖区。 **2026-09-02 首帧已重出（第二版）**：三行中文逐字未动，只做了两处增补——一是把搪瓷牌面做旧到剧本写的「掉漆的作业须知牌」程度（铆钉周围与四边连片崩瓷、锈斑、第三行右下角留一块新鲜漆皮缺口，剥落全部落在字与字之间的空白处），二是补进了卷扬机（本场是「卷扬机侧」，原版画面里没有）：铸铁外壳、缠钢丝绳的卷筒、带护罩的手动摇柄、**铭牌空白无字**。 **2026-09-03 删掉 `wan3FirstFrameFrom: \"S01\"`（用户定案「保住文字」）**：这个声明与本段自己的设计直接矛盾——首帧承载须知牌三行中文并像素锁死，而继承 S01 的真实尾帧就等于把这三行字交给 wan3 重画。「听到内侧有人说话，不要回答」是全季种子，优先级高于镜间衔接，所以 S01→S02 定为硬切，割裂感改用声音桥处理：本段开场两秒原样延续上一段的风声与钢索声（L-cut），上一段第23秒提前进电流嘶声（J-cut），配乐接在上一段收尾音量上、不重新起头。另：首跑发现本段首帧偏亮偏雾，与 S01 差一档，但首帧图不能重出（文字要保），因此在 prompt 顶部加了「曝光与色调」一节，明确往 S01 的冷灰硬光压。 **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：① 删掉了原本写在 prompt 开头的工程说明（「【图生视频·首帧】首帧已经锁定了…本提示词只写运动与运镜」这一类）——prompt 是原样发给模型的（/api/produce 只做 trim），这种写给我们自己看的话会被当成画面内容读，手册的全部示例里没有一句 meta。② 按手册公式「背景音乐 = 配乐 + 风格」给配乐补上风格词「暗调氛围 drone 风格」，原先七段只有乐器清单与禁令、一个风格词都没有。③ 负向句改写成正向描述：wan3.0-video **没有 negative_prompt 参数**（API 手册的请求字段只有 model / input.prompt / input.media / parameters{resolution,ratio,duration,audio,seed,prompt_extend,watermark}），而 Prompt 手册第 12 行把 prompt 定义为「正向提示词」，写「不要鼓组／不要可数的拍子／不要人声吟唱」等于把这些词直接喂进去；现在统一写成「无节拍、无旋律的持续音床……无打击乐器，配乐中无人声吟唱」。手册承认的负向开关只有「生成单镜头」「无台词」「无背景音乐」与运镜的「固定镜头」，这几个保留原样。 另：「曝光与色调」一节保留——它超出手册的图生视频公式（运动＋运镜），是个低概率杠杆，真正可靠的做法仍是重出首帧去对齐 S01 的冷灰硬光，只是三行中文要像素锁死所以不能重出。 **2026-09-03 连续性修订**：结尾补入沈砚立即压下下降开关、吊篮开始下降，承接 S03 的落稳动作。",
+      "propPaths": [
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/道具/须知牌.png",
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/道具/针剂.png"
+      ],
+      "wan3Prompt": "生成单镜头。\n曝光与色调：整段维持阴天冷灰硬光。把首帧偏亮的雾感压低一档，钢板与搪瓷牌面的高光收住，暗部保持深灰、偏中性不偏蓝。\n运动严格按时段推进。第0-4秒：画面停在铆于钢板的作业须知牌上，只有浮尘移动，三行喷漆字始终清晰可读。第4-7秒：镜头缓慢下摇，他从工装内袋摸出银灰色金属针剂，拇指顶开灰色塑料盖，把左袖口往上推，针尖抵住左小臂内侧密集的旧针眼，手很稳，没有按下去。第7-9秒：风从裂缝推出，吹动额发；他把盖子按回，针剂插回内袋，用指甲从第三行「漏用即报」的漆皮上抠下一小块，然后按下胸前对讲机。第9-13秒：他说出报告。第13-17秒：整整四秒无人回答，他保持按键姿势不动。第17-20秒：调度员回话。第20-22秒：他不回答，松开通话键，右手立即压下卷扬机下降开关；吊篮轻顿后沿墙向下移动，外侧混凝土墙面相对画面缓慢上移，结尾保持下降状态。\n运镜：第0-4秒固定在须知牌；第4秒起缓慢下摇到小臂与针剂近景；第9秒微抬到胸前对讲机、手和须知牌下沿；第20秒小幅移到下降开关。全程同一机位，不切镜。\n声音描述：第一帧已经存在高空风声、钢丝绳承重的金属吱呀声和极轻的窄带电流嘶声，三种声音到第二至第三秒一起落低一档。沈砚说：“第七段结构性缺口，第九层。风向逆转。”语气平得像念表格，语调下沉，语速均匀略慢，音色是二十岁男性偏冷偏清、略带干哑的嗓音，标准普通话，无口音。他说完后整整四秒只有电流底噪。四秒后对讲机里传出调度员：“……收到。原地等指令，不要下去。”语气公事化、略敷衍，语调平，语速稍快，音色是经窄带无线电压缩的中年男声，标准普通话。音效：指甲刮钢板漆皮的干涩声；塑料盖顶开与按回的轻响；金属针剂摩擦布袋；对讲机按键声与持续电流；裂缝气声；高空风噪。调度员回话结束后，按键弹回，卷扬机低沉启动，钢丝绳骤然绷紧并持续摩擦滑轮；下降声到画面结束仍在持续。背景音乐：暗调氛围 drone 风格配乐，第一帧已经是一层低而持续、没有起音的低音提琴拉弓与极低合成低频。人声出现时压低；沈砚说完后的四秒整条抽掉；调度员回话结束、卷扬机启动时，低频从近乎无声处缓慢回来。结尾保持持续状态，不落板。无节拍、无旋律、无打击乐器，配乐中无人声吟唱。"
+    },
+    {
+      "id": "s03",
+      "sceneId": "episode-1-scene-1",
+      "index": 2,
+      "segmentId": "S03",
+      "durationSec": 24,
+      "wan3Mode": "first_last_frame",
+      "shotSize": "wide",
+      "cameraMove": "static",
+      "cameraAmplitude": "none",
+      "cameraSpeed": "none",
+      "characterIds": [
+        "shenyan"
+      ],
+      "action": "他翻进缺口，站在墙体内部的检修平台上，第一次隔着缺口看向内侧。锈死的门机，翻倒的集装箱，街面上是干透裂成龟壳的淤泥，浮着一层灰。他看了三秒。然后那片东西开始动——不是一个，很多，很慢，从淤泥的裂缝里、从集装箱的阴影里一点一点往有光的地方挪。它们不出声。他的嘴唇很轻地动起来，数到十七的时候停了。",
+      "actionEn": "He climbs through the breach onto the inspection platform inside the wall body and looks out at the inner side for the first time. Seized gantry cranes, toppled containers, a street of dried silt cracked into turtle-shell plates under grey dust. He watches for three seconds. Then the ground begins to move — not one thing, many, very slowly, easing out of the cracks in the silt and the shadows of the containers toward the light. They make no sound. His lips move faintly, then stop.",
+      "lines": [],
+      "sfx": "耳压；极轻的搅动；始终没有嚎叫；他数数的声音低到几乎听不见",
+      "sfxEn": "Ear pressure; a barely audible stirring; never any howling; his counting so quiet it is almost inaudible",
+      "firstFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S03-首帧.png",
+      "lastFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S03-尾帧.png",
+      "note": "动作桥进入：S02 结尾吊篮开始下降，本段开场是下降结束后沈砚刚跨入缺口、右脚落稳；不是毫无过程地突然站在墙内。首帧＝空的旧港区，尾帧＝同一机位但地面已经布满在移动的东西；机位全程不动，变化全部发生在画面内部。**他数到十七这件事不许由任何台词点明。** 首帧与尾帧**机位、构图、缺口取景框完全一致**（FL2V 的前提）。首帧淤泥滩上一个都没有；尾帧近中景十来个可以一个个数出来，再往后是挤成一团、彼此重叠、根本数不清的一大片——**让观众自己数着数着数不动，结论不给**（对应『数到十七的时候停了，因为后面的挤在一起数不清了』）。全程无嚎叫、无奔跑、无伸手、无脸、无爪牙、无发光眼。**尾帧后景那一大片规模偏大，属口味问题，待用户定。** **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：① 删掉了原本写在 prompt 开头的工程说明（「【图生视频·首帧】首帧已经锁定了…本提示词只写运动与运镜」这一类）——prompt 是原样发给模型的（/api/produce 只做 trim），这种写给我们自己看的话会被当成画面内容读，手册的全部示例里没有一句 meta。② 按手册公式「背景音乐 = 配乐 + 风格」给配乐补上风格词「暗调氛围 drone 风格」，原先七段只有乐器清单与禁令、一个风格词都没有。③ 负向句改写成正向描述：wan3.0-video **没有 `negative_prompt` 参数**，而 Prompt 手册把 prompt 定义为正向提示词。另：原 prompt 括号里的「沈砚必须在场，不要把他移除」是对出图环节的要求，已移到本 note；模型侧不丢信息。 **2026-09-03 连续性修订**：开场补落稳动作与卷扬机停转尾响；收尾用手电开关声发动 S04。原来「无台词」与数数气声冲突，已改为「无额外台词；除听不清数字的气声数数外没有人声」。",
+      "wan3Prompt": "生成单镜头。\n运动：开场时吊篮在缺口层刚刚停稳，他从吊篮跨过缺口，右脚在墙体内部检修平台上落稳，搭着栏杆的右手收紧一下；随后背对镜头站到平台边沿。前三秒内这些动作幅度很小，远处旧港区仍然完全静止。第四秒起，远处干裂淤泥的缝隙里、翻倒集装箱的阴影里，开始有灰扑扑的人形极其缓慢地移动——先是一两个，然后越来越多，全部朝有光的方向一点一点挪。它们动作很慢、很钝，只是挪动，手垂着、嘴闭着，始终远、小、模糊，看不清脸。近中景的十几个能一个个分辨出来，再往后那一小簇挤在一起，身体互相叠着，分不出个数。他的后脑与肩线全程几乎不动，只有嘴唇极轻微地一开一合。数到某一处停住，肩膀微微一沉。最后一秒，他垂在身侧的右手摸到手电开关，画面外响起一声清楚的「咔」，但他仍面向旧港区，画面在手电刚被打开的声音上结束。\n运镜：固定镜头，全程机位不动，与首尾两帧的机位、构图完全一致。让画面自己变化。\n声音描述：无额外台词；除沈砚听不清数字的气声数数外，没有任何人声。开场一秒内卷扬机正在减速停转，钢丝绳卸力回弹，吊篮轻碰缺口边缘；三声尾响过后，迅速落入墙体内部的密闭空气回响。音效：耳压变化般的低频闷响；干裂泥面被踩碎时极轻的「咔」声，零星、不成节奏；极轻微的搅动声，是干泥被拖动、龟壳状泥皮被压裂，来自很远的地方；他数数的声音低到几乎听不见，只有气声，听不出数字；那些人形整段一律无声。最后一秒只有手电开关的一声清楚轻响，混凝土回声到画面结束时仍未消失。背景音乐：暗调氛围 drone 风格配乐。开场已经存在一层低而持续、没有起音的合成低频；随后低音提琴持续拉弓单向增厚：先一个音；人形移动时叠进相距小二度的第二个音；最后再叠金属摩擦余响。全程只加压，不解决、不落板，没有任何可以数的拍子；他数数时配乐压低一档。结尾不收束，在手电开关声上硬切。无打击乐器，配乐中无人声吟唱。"
+    },
+    {
+      "id": "s04",
+      "sceneId": "episode-1-scene-2",
+      "index": 3,
+      "segmentId": "S04",
+      "durationSec": 25,
+      "wan3Mode": "first_last_frame",
+      "shotSize": "close-up",
+      "cameraMove": "handheld",
+      "cameraAmplitude": "medium",
+      "cameraSpeed": "medium",
+      "characterIds": [
+        "shenyan"
+      ],
+      "action": "他转身把手电打向混凝土断面。里面嵌着一只干枯发褐、五指张开的手，指甲在混凝土上刮出过几道浅槽——槽是从里往外刮的。他抬起手，指尖离那只手还有半寸。头顶传来金属撕裂的声音，脚手架垮了一角，一根钢筋从上往下贯穿他的右小腿，把腿钉在木板上。血涌出来。他先抬头看了一眼头顶，确认上面没有第二根要落下来的东西，然后才低头看自己的腿。两只手握住小腿往上抬，钢筋从伤口里退出来。他站起来，踩了一下，把裤腿放下去盖住，一瘸一拐往吊篮走，走的时候顺手把散落的记录本捡了起来。",
+      "actionEn": "He turns his torch onto the broken concrete face. Embedded in it is a desiccated brown hand, fingers splayed, with shallow grooves scratched into the concrete beside the nails — scratched from the inside outward. He raises his hand, fingertips half an inch short of it. Metal tears overhead; a corner of the scaffolding gives way and a length of rebar drives down through his right calf, pinning the leg to the planking. Blood wells out. He looks UP first, confirming nothing else is about to fall, and only then down at his own leg. Both hands grip the calf and lift; the rebar withdraws from the wound. He stands, tests his weight, pulls the trouser leg down over it and limps toward the cradle, picking up his scattered logbook on the way.",
+      "lines": [],
+      "sfx": "手电开关；头顶由远及近的钢材形变；木板断裂；钢筋抽离的一声很短的湿响；之后只剩他的呼吸和纸页的声音",
+      "sfxEn": "The click of the torch; steel deforming overhead, closing in; planking snapping; a short wet sound as the rebar pulls free; after that only his breathing and the sound of paper",
+      "firstFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S04-首帧.png",
+      "lastFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S04-尾帧.png",
+      "note": "硬切进入（承 S03，但不继承它的真实尾帧）。**『先抬头确认第二根，再低头看自己的腿』这个顺序是本段的全部信息**，不许调换，也不许加任何表情特写去解释它。 **2026-09-02 更正：镜段表原写『链内段，首帧换成 S03 真实尾帧』，与本段提示词（首帧＝手电打在断面上那只手与五道抓痕）直接冲突，且会把精修四轮才对的指甲刮槽交给模型自己重画。按 S02 的同一条判据——最脆的细节必须被像素锁死——本段一律用定稿的 `S04-首帧.png`，不设 `wan3FirstFrameFrom`。** 首帧已从道具卡改出竖直断面几何（手水平伸出、手电筒身入左画、底部踏板与木板）。**已知残留：从里往外的刮槽比道具卡上弱**，v2 加深过一轮，但仍与混凝土自身的模板竖纹抢读。这条信息最终要靠段内手电横扫来交付，出片后要专门验这一点。尾帧：脚手架垮角、弯钢筋垂下、木板上血迹、他背对镜头一瘸一拐走开、左手拎记录本。尾帧那摊血的红偏艳，与全片冷灰不太合，正式跑可压暗一档。 **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：① 删掉了原本写在 prompt 开头的工程说明（「【图生视频·首帧】首帧已经锁定了…本提示词只写运动与运镜」这一类）——prompt 是原样发给模型的（/api/produce 只做 trim），这种写给我们自己看的话会被当成画面内容读，手册的全部示例里没有一句 meta。② 按手册公式「背景音乐 = 配乐 + 风格」给配乐补上风格词「暗调氛围 drone 风格」，原先七段只有乐器清单与禁令、一个风格词都没有。③ 负向句改写成正向描述：wan3.0-video **没有 negative_prompt 参数**（API 手册的请求字段只有 model / input.prompt / input.media / parameters{resolution,ratio,duration,audio,seed,prompt_extend,watermark}），而 Prompt 手册第 12 行把 prompt 定义为「正向提示词」，写「不要鼓组／不要可数的拍子／不要人声吟唱」等于把这些词直接喂进去；现在统一写成「无节拍、无旋律的持续音床……无打击乐器，配乐中无人声吟唱」。手册承认的负向开关只有「生成单镜头」「无台词」「无背景音乐」与运镜的「固定镜头」，这几个保留原样。 另：原 prompt 括号里的「本段全场只允许出现一次抬头」已改写进运动段正文（「全段他只抬头这一次」），首尾帧的内容描述移到本 note。",
+      "propPaths": [
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/道具/混凝土里的手.png"
+      ],
+      "wan3Prompt": "生成单镜头。\n运动：开场第一帧，手电光已经落在墙体断面上，手电开关那声「咔」只剩短促的混凝土回声。光束缓慢横扫，先照亮五指张开的干枯手掌，再顺着五道从指尖向外拖出的浅抓痕移动，光线擦着表面走，抓痕细边一道道亮起来。他抬手伸向那只手，指尖在离它半寸处停住。头顶传来金属撕裂声，他的手仍停在原处，头保持低着。脚手架垮下一角，一根钢筋从上方落下贯穿右小腿，把腿钉在木板上，血涌出来。他先抬头看一眼头顶，确认没有第二根要落下来的东西；全段只抬头这一次。然后他才低头看腿。两手握住小腿往上抬，钢筋从伤口退出。他撑着站起，用右脚踩地，重心猛地一偏，右手立刻抓住脚手架立杆，右腿抬起不再着力。停一秒，他重新放下右脚，放下裤腿盖住小腿，弯腰捡起散落的记录本，一瘸一拐朝检修吊篮方向走。结尾时他仍背对镜头留在画面里，一手拎记录本，一重一轻地继续往吊篮方向走。\n运镜：手持跟随，晃动幅度小而持续；开头是断面近景，钢筋落下时镜头随他下坠轻微下沉，之后跟着他起身缓慢拉开成中景，最后固定，让他背对镜头一瘸一拐走远并保持在画面内，准确收束到尾帧。全程只有这一条平缓的跟随与拉开。\n声音描述：无台词。开场只有手电开关声尚未消失的短促混凝土回响，手电光已经照亮断面。音效：金属外壳磕在混凝土上的钝响；头顶由远及近的钢材形变声，先是一声长而缓的「吱——」再是一声脆断；木板断裂声；钢筋退出伤口时一声很短的湿响；血滴落木板的连续钝点声；粗而平稳的呼吸；纸页翻动声；一重一轻的脚步声。结尾只保留他走向吊篮的一重一轻脚步、呼吸和纸页轻响。背景音乐：暗调氛围 drone 风格配乐，低音提琴持续拉弓叠极低合成低频，全段维持低音量。脚手架垮塌与钢筋贯穿时配乐保持原样。钢筋退出后配乐降到几乎听不见，只剩呼吸；他走开时低频极缓慢回来，结尾保持持续状态、不落板。全程无节拍、无旋律，只有厚度与音高的极缓慢变化。无打击乐器，配乐中无人声吟唱。"
+    },
+    {
+      "id": "s05",
+      "sceneId": "episode-1-scene-3",
+      "index": 4,
+      "segmentId": "S05",
+      "durationSec": 30,
+      "wan3Mode": "reference",
+      "shotSize": "medium",
+      "cameraMove": "push-in",
+      "cameraAmplitude": "small",
+      "cameraSpeed": "slow",
+      "characterIds": [
+        "shenyan",
+        "ruanqing"
+      ],
+      "action": "吊篮落地。他一瘸一拐走出三步——第四步不瘸了。他停住，把裤腿卷起来看了一眼，放下去；走两步，又卷起来看了第二遍，指尖蹭上一点血，是干的。一辆没有标识的车停在检修道上，阮清下来，手里一份纸质档案，封皮上印着一个数字：11。她先看的是他的裤腿。他否认之后她看了他两秒，没有追问，把档案换到另一只手上。她说话的时候，远处墙体作业的机械声停了。",
+      "actionEn": "The cradle touches down. He limps three steps — on the fourth the limp is gone. He stops, rolls the trouser leg up, looks, drops it; two steps later he rolls it up and looks a second time, a smear of blood on his fingertip, already dry. An unmarked van is parked on the service road. Ruanqing steps out holding a paper case file, the number 11 printed on its cover. She looks at his trouser leg first. After he denies it she watches him for two seconds, does not press, and shifts the file to her other hand. As she speaks, the distant wall-maintenance machinery stops.",
+      "lines": [
+        {
+          "characterId": "ruanqing",
+          "text": "你受伤了。",
+          "emotion": "陈述，不是关心"
+        },
+        {
+          "characterId": "shenyan",
+          "text": "没有。",
+          "emotion": "不解释"
+        },
+        {
+          "characterId": "ruanqing",
+          "text": "十年了，风第一次反过来。",
+          "emotion": "留一拍空白"
+        },
+        {
+          "characterId": "ruanqing",
+          "text": "你是唯一从地下三层出来、现在还活着的人。",
+          "emotion": "平，像在核对一份名单"
+        }
+      ],
+      "sfx": "车门；风；远处墙体作业的机械声在她说话时停了",
+      "sfxEn": "A vehicle door; wind; the distant wall-maintenance machinery cuts out the moment she speaks",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "note": "硬切进入。**阮清的音色取样段**，同时要带上 S02 截出的沈砚音色样本当 reference_audio，否则两段里的沈砚是两个人。档案封皮那个 11 只给一眼，全集不打开（seed-01）。 档案卡见 propPaths；封皮上除了 11 没有任何字，这一点由道具卡锁死，reference_image 里带上它，不要让 wan3 自己写封皮。 **S05 没有首帧、也不许有。**本段走全能参考，`reference_*` 与 `first_frame` 互斥，所以 `firstFramePath` 已置空，另存 `compositionRefPath` = `分镜/S05-构图参考.png`——那张只是给人看的走位/视线参考（阮清先看裤腿、不看脸），**不作为任何 API 入参**。正式跑时 reference_image 的顺序已落到 `wan3ReferencePaths`，必须与提示词里的图号一一对应：图1 沈砚三视图、图2 阮清三视图、图3 `场景/墙下检修道.png`、图4 `道具/档案-11.png`（旧版 note 里写的「阮清、沈砚…」顺序与提示词不符，已按提示词为准更正）。`requiresVoiceRef: true` + 空的 `wan3ReferenceAudioUrls` 会让 /api/produce 直接拒跑本段，防止在没有沈砚音色样本的情况下白烧一次——样本要先从 S02 的输出里截 ≤15 秒、上传拿公网 URL（万相的视频/音频素材不支持 base64 直传）。构图参考那张的光偏暖偏黄（跑成了斜阳），与 S01-S03 的冷调阴天不接——**以场景卡的冷调为准，不要照搬参考图的光**。 **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：① 删掉了原本写在 prompt 开头的工程说明（「【图生视频·首帧】首帧已经锁定了…本提示词只写运动与运镜」这一类）——prompt 是原样发给模型的（/api/produce 只做 trim），这种写给我们自己看的话会被当成画面内容读，手册的全部示例里没有一句 meta。② 按手册公式「背景音乐 = 配乐 + 风格」给配乐补上风格词「暗调氛围 drone 风格」，原先七段只有乐器清单与禁令、一个风格词都没有。③ 负向句改写成正向描述：wan3.0-video **没有 negative_prompt 参数**（API 手册的请求字段只有 model / input.prompt / input.media / parameters{resolution,ratio,duration,audio,seed,prompt_extend,watermark}），而 Prompt 手册第 12 行把 prompt 定义为「正向提示词」，写「不要鼓组／不要可数的拍子／不要人声吟唱」等于把这些词直接喂进去；现在统一写成「无节拍、无旋律的持续音床……无打击乐器，配乐中无人声吟唱」。手册承认的负向开关只有「生成单镜头」「无台词」「无背景音乐」与运镜的「固定镜头」，这几个保留原样。 另：① 补上手册要求的「生成单镜头」——手册第 51 行说 wan3 不再有 shot_type、单镜头/多镜头完全由 prompt 决定，而本段是全集唯一的双人四句对话段，不写就有被自动切成正反打的风险。② 原 prompt 开头那段 media 上传顺序说明（含反引号文件路径与「reference 与 first_frame 互斥」）已整段删除，上传顺序的唯一真相是 wan3ReferencePaths 与本 note。③ 按手册人声公式「内容＋情绪＋语调＋语速＋音色＋口音」把后三句台词的六要素补齐，原先只有第一句写全。④ 三视图当 reference_image 的风险（一张图里三个人形、可能被照抄版式）尚未处理，等阮清正面单图裁出来再换。",
+      "propPaths": [
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/道具/档案-11.png"
+      ],
+      "compositionRefPath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S05-构图参考.png",
+      "wan3ReferencePaths": [
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/角色/沈砚-三视图.png",
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/角色/阮清-三视图.png",
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/场景/墙下检修道.png",
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/道具/档案-11.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": true,
+      "wan3Prompt": "生成单镜头。\n图1是年轻男人，图2是女人，图3是墙下检修道，图4是女人始终合着拿在手里的档案。动作严格按时段推进。第0-2秒：卷扬机正在减速，检修吊篮沿隔离墙降下最后一小段并轻轻落地；吊篮门打开，图1跨出来。第2-5秒：图1一瘸一拐走出三步，第四步忽然不瘸了，吊篮留在身后的墙边。第5-10秒：他卷起右侧裤腿看一眼，放下，往前走两步，又卷起来看第二遍，指尖蹭到一点已经干了的血，再放下裤腿；第7秒起，深灰色无标识面包车侧门同时拉开，图2从车上下来，手持图4，封皮上只有数字 11。第10-14秒：图2走到他面前，先看右侧裤腿，然后说：“你受伤了。”图1回答：“没有。”第14-16秒：图2抬眼看他整整两秒，把档案换到另一只手。第16-21秒：图2说：“十年了，风第一次反过来。”说完留一拍空白。第21-28秒：图2说：“你是唯一从地下三层出来、现在还活着的人。”远处墙体作业机械声与配乐同时停掉。第28-30秒：图2侧身让开车门；图1右手抓住车门框，右脚踩上车门踏板，身体跨入车门，画面在这个明确的上车动作上结束。档案全程合着。\n场景：三十七米高的混凝土隔离墙脚下的检修便道，阴天冷光，低饱和度，浮尘与细灰，硬光带深阴影，电影感真人实拍质感。吊篮始终贴着隔离墙落地，面包车始终停在同一条检修道上。\n运镜：开场用中远景同时交代隔离墙、落地吊篮和前方的面包车；镜头小幅横移跟随图1离开吊篮。图2下车时缓慢推进成两人中景，此后保持同一机位和两人轴线，不切正反打。最后两秒镜头轻微跟随图1到车门边，清楚看见手抓门框、脚踩踏板和身体跨入车门。\n台词声音：图2第一句是陈述，不是关心，语调下沉、语速不快，音色是三十一岁女性偏低的嗓音，标准普通话，无口音。图1的“没有。”语气是把话堵住，语调平，语速快而短，音色与音频1完全一致，标准普通话，无口音。图2第三句像陈述天气记录，语调平直，语速偏慢，音色与第一句一致，标准普通话，无口音。图2最后一句平得像核对名单，每个字同等轻重，语调下沉，语速均匀偏慢，音色与前两句一致，标准普通话，无口音。\n声音描述：开场先有卷扬机减速、吊篮落地和钢丝绳卸力声；随后是吊篮门闩、车门滑轨、墙脚风声和远处墙体作业机械声。背景音乐：暗调氛围 drone 风格配乐，第一帧已经处于低而持续的中段状态，没有新的起音；低音提琴持续拉弓叠极低合成低频，音量压在台词之下。最后一句开始时，配乐和远处机械声同时停掉，让整句话落在空底上。说完后保持无配乐，只恢复脚踩踏板、手抓门框与衣料摩擦声。"
+    },
+    {
+      "id": "s06",
+      "sceneId": "episode-1-scene-4",
+      "index": 5,
+      "segmentId": "S06",
+      "durationSec": 22,
+      "wan3Mode": "first_frame",
+      "shotSize": "close-up",
+      "cameraMove": "pan-right",
+      "cameraAmplitude": "small",
+      "cameraSpeed": "slow",
+      "characterIds": [
+        "shenyan",
+        "fujia"
+      ],
+      "action": "四个人，加他，五个。没人说话。他靠窗坐着，抬眼扫过去——每个人身上都浮着薄薄一层说不清颜色的东西，淡得像镜头脏了；副驾那个不一样，他身上那层有厚度，贴着后颈往上爬，而他本人正低头刷短视频。沈砚右眼的瞳孔外圈慢慢浮出一道极浅的灰环。他移开视线看向车窗，玻璃上映着他自己：同一种东西，浓得像浸透了的布。他抬起袖子把车窗上那块反光擦了一下，擦完还在。副驾挠了一下后颈，就挠在那层往上爬的东西正中间。",
+      "actionEn": "Four people, five with him. Nobody speaks. He sits by the window and lifts his eyes across the cabin — a thin film of some indeterminate colour clings to every one of them, so faint it reads as a dirty lens. The front passenger is different: his film has thickness and is creeping up the back of his neck while the man himself scrolls short videos. On the outer edge of Shenyan's RIGHT iris a very faint ash-grey ring surfaces. He looks away to the window glass, where his own reflection carries the same substance, dense as soaked cloth. He lifts his sleeve and wipes that patch of reflection; it is still there. The front passenger scratches the back of his neck, exactly in the middle of the creeping film.",
+      "lines": [
+        {
+          "characterId": "fujia",
+          "text": "这车里怎么这么闷。",
+          "emotion": "抱怨天气的随意口吻"
+        }
+      ],
+      "sfx": "车内空调；手机漏出来的短视频人声；袖子擦玻璃的干涩摩擦",
+      "sfxEn": "Cabin air-conditioning; tinny short-video audio leaking from a phone; the dry squeak of a sleeve on glass",
+      "firstFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S06-首帧.png",
+      "lastFramePath": null,
+      "note": "动作桥进入：S05 末尾沈砚已转身向车门迈步，本段以侧门滑合、门闩扣紧和车辆起步完成上车过程。副驾这一句音色不需要跨段一致，所以走首帧把画面锁死更划算。灰环用 eye-1a-faint 卡锚定，**绝不许出现第二道内环**（双环是卷二的资源）。副驾这张脸必须与 ep03 尸变那个人一致。 后颈那一层走 `角色/副驾-后颈浮层.png`：它是**主观镜头里的浮层**，不是皮肤病变——剧本原文『每个人身上都浮着薄薄一层』说明常规机位看不见，所以卡上必须是贴在皮肤表面、有厚度、半透明、能看见皮肤纹理的膜，不能画成胎记或淤青。**这一条是卷一到卷三整条感染可视化的基准**：如果常规机位能看见，ep03 卫平就没有理由不信沈砚。现卡略偏干、偏结壳，出首帧时往『湿、薄、有反光』推一档。 首帧已定稿，用 `角色/沈砚-正面.png` 锚脸，**成功把 `场景/车内.png` 那张偏白偏亮的调子压回冷灰硬光**——正式跑以这张首帧的曝光为准，不要回头参考场景卡的亮度。首帧里他**双眼虹膜外缘干净、一道灰环都没有**，灰环是段内浮出来的。 **2026-09-02 首帧已重出**：原版除沈砚与副驾之外只有黏在一起的暗影，数不出剧本要求的「四个人，加他，五个」。现版本中景有三名各自独立、互不重叠的乘客；加上副驾正好四人。沈砚虹膜外缘仍然干净无环，副驾后颈浮层与手机冷光保留。运镜横摇途中让三名乘客各自单独入画一次；中段推进到沈砚右眼近景，保证极窄灰环可读；收尾回到变暗的车窗倒影，为 S07 的夜间近景留暗切口。 **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：删掉工程说明、补齐配乐风格词并以正向描述为主。 **2026-09-03 连续性修订**：开场补车门滑合与起步，收尾由眼部近景改为暗窗倒影，解决原动作顺序与「最后四秒只剩右眼」无法同时成立的问题。",
+      "propPaths": [
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/角色/副驾-后颈浮层.png"
+      ],
+      "wan3Prompt": "生成单镜头。\n运动严格按时段推进。第0-2秒：面包车侧门正在画外滑合，门闩扣紧，车身轻轻一震；车辆平稳起步，沈砚已经靠左侧车窗坐好。第2-7秒：他抬眼从近处往车厢深处缓慢扫过去，目光依次经过另外三名乘客，再落到最前面副驾的后颈上；三名乘客各自独立入画一次。第7-10秒：副驾后颈那层半透明的膜极缓慢地往发际线爬动一点，膜边缘随呼吸微微起伏；他始终低头刷手机。第10-13秒：焦点回到沈砚右眼，瞳孔外圈极缓慢地浮出一道极浅的灰环，全程只有这一道单环，眼部近景停够时间让灰环清楚可见。第13-17秒：他移开视线，转头看左侧车窗；玻璃上映着他自己，同一种东西浓得像浸透的布。他用右侧袖口擦一下反光，放下手，那层东西仍在。第17-19秒：副驾抬手挠后颈，手指正好挠在那层膜往上爬的正中间，说完话后继续低头看手机。第19-22秒：焦点回到沈砚映在车窗里的侧脸与右眼灰环，他看着擦不掉的倒影不动；车辆驶入墙体投下的阴影，画面整体自然暗下一档。\n运镜：一镜到底。开场随车门扣紧轻震一次；第2-7秒极缓慢横摇跟随他的视线往车厢深处走；第7-10秒固定在副驾后颈；第10-13秒把焦点拉回沈砚右眼并缓慢推进；第13秒后跟随他的转头动作平移到车窗倒影，保持本人和倒影之间的空间方向不变；第17秒只做一次短促焦点转移看副驾挠后颈，之后回到车窗倒影并在这里结束。车身行驶带来持续细微颠动。\n声音描述：开场第一声是面包车侧门滑合与门闩扣紧的金属声；紧接发动机转速轻升、轮胎起步和车内空调送风声。第17-19秒副驾说：“这车里怎么这么闷。”语气是随口抱怨，语调略微上扬，语速正常，音色是二十八岁普通男性中音、略含混，标准普通话带一点日常口语的松散。车里其他人全程沉默，这句话之后无人应答。音效：手机漏出的含混短视频人声；袖子擦玻璃的干涩摩擦声；车轮碾过路面接缝的规律钝响；布料与座椅摩擦声；指甲刮过后颈的极轻声响。背景音乐：暗调氛围 drone 风格配乐，在车门扣紧后从近乎无声处缓慢进入，低音提琴持续拉弓叠极低合成低频和极轻的高频金属摩擦泛音。灰环浮出、副驾挠后颈时配乐均保持同一音量。最后两秒配乐与手机声一起迅速压低，只留下车轮和空调声，末尾不做音乐落板。"
+    },
+    {
+      "id": "s07",
+      "sceneId": "episode-1-scene-5",
+      "index": 6,
+      "segmentId": "S07",
+      "durationSec": 22,
+      "wan3Mode": "first_last_frame",
+      "shotSize": "close-up",
+      "cameraMove": "static",
+      "cameraAmplitude": "none",
+      "cameraSpeed": "none",
+      "characterIds": [
+        "shenyan"
+      ],
+      "action": "药盒已经放在桌上，标签上产地是墙外一个地名，批号那一栏只有四位数。他把整盒推进抽屉最深处，压上一本旧维护手册，关上抽屉；然后又拉开一次，把手册挪正，重新关上。他坐到床沿，把右腿裤管卷到膝盖——小腿上那个洞已经不是洞了，是一小块新长出来的肉，颜色比周围浅，边缘干净。他伸出拇指按下去，按得很深，指甲边缘泛白。他一直按着，同时抬起头看墙上那面小镜子里的自己，看了很久。然后又按深了一点。",
+      "actionEn": "The box of injectors is already on the desk; its label gives a place name outside the wall and a batch number only four digits long. He pushes the whole box to the very back of the drawer, weights it with an old maintenance manual and shuts the drawer — then pulls it open again, squares the manual, and shuts it a second time. He sits on the edge of the bed and rolls his right trouser leg to the knee. The hole in his calf is no longer a hole but a small patch of new flesh, lighter than the skin around it, its edge clean. He presses his thumb into it, deep, the nail bed blanching white. He keeps pressing while he raises his head to look at himself in the small mirror on the wall, and looks for a long time. Then he presses deeper.",
+      "lines": [],
+      "sfx": "抽屉轨道两次；窗外的风；最后只有呼吸，收尾三秒连呼吸也停掉",
+      "sfxEn": "The drawer runners, twice; wind outside the window; then only breathing, and in the final three seconds even the breathing stops",
+      "firstFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S07-首帧.png",
+      "lastFramePath": "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/分镜/S07-尾帧.png",
+      "note": "硬切进入（日→夜）。集末钩子：**他在等疼，等不到——这件事全程不许有任何台词或旁白点明**，只靠拇指越按越深加眼睛一直看着镜子。尾帧停在拇指最深那一下。 首帧已定稿：药盒标签三行字像素级保住，夜间宿舍桌面、抽屉半开、旧维修手册、工装袖口出画、单一暖台灯压出深黑。尾帧已定稿（第一版跑成了横屏 1536×1024，已删重出）：低侧机位，右腿裤管卷到膝上，双手抱小腿，右拇指深按在一小块**明显更浅、更平滑、边缘干净**的新生皮肤上，按处微微下陷、拇指盖边缘泛白，无伤口无血无结痂；他抬头看墙上小镜子，镜中有他自己的脸。 **2026-09-02 尾帧已重出（第三版），并且改了景别。** 前两版的问题是：他的头低垂着、没有在看镜子，镜中那张脸却是正面朝镜头的（几何上不成立）；更要紧的是「颜色比周围浅、边缘干净的一小块新肉」在均匀的小腿上完全读不出来，两轮 image-to-image 都只做出一片高光。根因是**景别**：中近景里小腿只占很小一块，模型会把浅色当成反光。重读剧本场9 之后改了判断——那一场的最后一个动作是「**然后他又按深了一点**」，不是看镜子，所以收尾帧本来就该落在拇指上而不是镜子上。现版本尾帧是低侧角度的小腿近景：那块新生皮肤比拇指指腹大一圈（按下去四周仍露出一整圈）、明显浅两三个调子、光滑无汗毛无毛孔、边缘是一圈突变的清晰界线，周围小腿保留汗毛毛孔与小静脉做反差；无疤、无缝合痕、无结痂、无伤口、无血、无红肿。看镜子那一拍移到段内的中近景里完成，镜中是与他朝向对应的四分之三侧脸。**另外锁死一条：本段是 22 秒一镜到底，不许在段内换衣服。**他全程黑背心，那身黑连体工装挂在背后墙钩上；剧本场8「把那盒药从内袋拿出来」这个动作因此落在段外——首帧里药盒已经在桌上。 **2026-09-03 prompt 按官方《wan3.0Prompt手册》对齐**：① 删掉了原本写在 prompt 开头的工程说明（「【图生视频·首帧】首帧已经锁定了…本提示词只写运动与运镜」这一类）——prompt 是原样发给模型的（/api/produce 只做 trim），这种写给我们自己看的话会被当成画面内容读，手册的全部示例里没有一句 meta。② 按手册公式「背景音乐 = 配乐 + 风格」给配乐补上风格词「暗调氛围 drone 风格」，原先七段只有乐器清单与禁令、一个风格词都没有。③ 负向句改写成正向描述：wan3.0-video **没有 negative_prompt 参数**（API 手册的请求字段只有 model / input.prompt / input.media / parameters{resolution,ratio,duration,audio,seed,prompt_extend,watermark}），而 Prompt 手册第 12 行把 prompt 定义为「正向提示词」，写「不要鼓组／不要可数的拍子／不要人声吟唱」等于把这些词直接喂进去；现在统一写成「无节拍、无旋律的持续音床……无打击乐器，配乐中无人声吟唱」。手册承认的负向开关只有「生成单镜头」「无台词」「无背景音乐」与运镜的「固定镜头」，这几个保留原样。 另：原 prompt 括号里的服装连续性（全程黑背心、连体工装挂在墙钩上）已改成正向陈述写进 prompt 开头，首尾帧的内容描述与「从内袋拿出来发生在段外」移到本 note。",
+      "propPaths": [
+        "storage/works/地下三层/episodes/u1-ep01-02-墙外的最后两天/ep01/media/images/道具/药盒标签.png"
+      ],
+      "wan3Prompt": "生成单镜头。他全程穿黑色背心，那身黑色连体工装始终挂在他背后的墙钩上；右眼虹膜外缘始终保留一道极浅的灰环，仅有这一道，不消失也不变成双环。\n运动：夜间宿舍里，开场停在暖灯下的药盒标签上，三行字清晰可读约三秒。一只手进画，把整盒药推进抽屉最深处，再把一本旧维修手册压在上面，关上抽屉。停半秒，抽屉又被拉开一次，那只手把手册挪正，重新关上。他坐到床沿，把右腿裤管卷到膝盖，露出小腿——上面那个贯穿伤已经长平了，是一小块新长出来的肉，颜色比周围浅，边缘干净，皮面完整，没有血、没有结痂、没有缝线。他伸出右手拇指按在那块新肉上，按得很深，拇指盖边缘泛白，皮肤在指腹周围微微鼓起。他一直按着不松，同时把头抬起来，转向墙上那面小方镜，看镜子里的自己，看了很久。最后又把拇指按深一点。全程闭着嘴不出声，面部保持松弛。\n运镜：一镜到底。开头是暖暗色调的药盒标签近景；抽屉动作时镜头极轻微下移跟随；随后缓慢拉开成侧面低角度的中近景，他抬头看墙上小镜子的动作发生在这个景别里，小腿与抬起的脸同时在画内，镜中能看见他的四分之三侧脸和右眼那道极浅单环；最后六秒镜头继续推进到小腿与两只手的近景，画面上缘只剩下颌与颈前，墙上小镜子退成一小块虚焦暗矩形。收尾停在拇指按深那一下，那块浅色新生皮肤是全画面唯一的亮处。\n声音描述：无台词，全程没有任何人说话。开场第一秒只有隔着玻璃的低沉夜风和安静房间底噪，车内空调、手机和发动机声都已完全消失；第二秒起纸盒与抽屉声进入。音效：纸盒推进木抽屉的干涩摩擦声；抽屉轨道关上一声、拉开一声、再关上一声，共三声，第二声和第三声之间有半秒停顿；手册压下的一声闷响；布料卷起的摩擦声；窗外持续的闷风；他的呼吸声越来越慢；最后三秒连呼吸也停掉，只剩窗外的风。背景音乐：暗调氛围 drone 风格配乐，开场第一秒完全无配乐，第二秒以后才从近乎无声处进入低音提琴持续拉弓与极低合成低频。抽屉动作期间维持低音量；他卷起裤腿、拇指按下去时单向增厚；抬头看镜子时最厚，但始终不成旋律、不解决、不落板。最后三秒配乐整条切断，和呼吸同时消失，只留窗外闷风。无打击乐器，配乐中无人声吟唱。"
+    }
+  ]
+}

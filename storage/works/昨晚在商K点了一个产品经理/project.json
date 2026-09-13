@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "projectId": "昨晚在商K点了一个产品经理",
+  "title": "昨晚在商K点了一个产品经理",
+  "owner": "漫剧agent",
+  "status": "segments_ready",
+  "sourceOfTruth": {
+    "project": "project.json",
+    "story": "story/",
+    "episode": "episodes/epNN/",
+    "media": "episodes/epNN/media/"
+  },
+  "story": {
+    "bible": "story/bible.json",
+    "outline": "story/outline.json",
+    "chapters": "story/chapters/"
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "昨晚在商K点了一个产品经理",
+      "durationSec": 180,
+      "status": "segments_ready",
+      "screenplay": "episodes/ep01/ep01.md",
+      "review": "episodes/ep01/ep01_review.md",
+      "assetManifest": "episodes/ep01/ep01_assets.md",
+      "segments": "episodes/ep01/ep01_segments.md",
+      "script": "episodes/ep01/script.json"
+    }
+  ],
+  "notes": [
+    "短视频黑色幽默；现实行业名词保留。",
+    "三号PM看穿数据不足与老板的真实需求后选择自保。",
+    "老板明确相信：PPT能过会，落地失败就是执行问题。",
+    "结尾三号PM因会包装不确定性而升任产品负责人。",
+    "三位PM均为漂亮的都市职场女性，但职责风格、发型、服装和配色必须明显区分。"
+  ],
+  "assets": {
+    "scenes": [
+      {
+        "id": "scene-innovation-center-entrance",
+        "name": "产品创新中心门口",
+        "path": "episodes/ep01/media/images/场景/产品创新中心-门口-v01.png",
+        "use": "场1；商K改造后的创新中心入口，旧霓虹与企业招牌并置"
+      },
+      {
+        "id": "scene-innovation-center-room",
+        "name": "产品创新中心包间",
+        "path": "episodes/ep01/media/images/场景/产品创新中心-包间-v01.png",
+        "use": "场2-6；商K包间改造成的企业接待空间"
+      },
+      {
+        "id": "scene-management-meeting",
+        "name": "经营会会议室",
+        "path": "episodes/ep01/media/images/场景/经营会-会议室-v01.png",
+        "use": "场7；第二天经营会与三号PM晋升后的汇报空间"
+      }
+    ],
+    "supportingCharacters": [
+      {
+        "id": "product-director",
+        "name": "产品总监",
+        "path": "episodes/ep01/media/images/产品总监-三视图-v02.png"
+      },
+      {
+        "id": "boss",
+        "name": "老板",
+        "path": "episodes/ep01/media/images/老板-三视图-v02.png"
+      },
+      {
+        "id": "business-lead",
+        "name": "业务负责人",
+        "path": "episodes/ep01/media/images/角色/业务负责人-半身-v01.png"
+      }
+    ],
+    "props": [
+      {
+        "id": "business-plan-dau",
+        "name": "商业计划书",
+        "path": "episodes/ep01/media/images/道具/商业计划书-DAU分析-v01.png",
+        "use": "场5；DAU、留存和问题分析"
+      }
+    ],
+    "screens": [
+      {
+        "id": "jira-pending",
+        "name": "Jira任务页-待评审",
+        "path": "episodes/ep01/media/images/屏幕/Jira任务页-待评审-v01.png",
+        "use": "场4；未完成任务列表"
+      },
+      {
+        "id": "dau-roadmap",
+        "name": "DAU复苏三年战略路线图",
+        "path": "episodes/ep01/media/images/屏幕/DAU复苏三年战略路线图-v01.png",
+        "use": "场5-7；路线图、晋升和经营会汇报"
+      },
+      {
+        "id": "flybook-message",
+        "name": "老板手机-飞书消息",
+        "path": "episodes/ep01/media/images/屏幕/老板手机-飞书消息-v01.png",
+        "use": "场5；老板手机弹出的经营会结论要求"
+      },
+      {
+        "id": "jira-completed",
+        "name": "Jira任务页-已完成",
+        "path": "episodes/ep01/media/images/S10-终态-Jira已完成-v02.png",
+        "use": "场6；三号PM把任务状态改为已完成"
+      }
+    ],
+    "characters": [
+      {
+        "id": "pm-01",
+        "name": "一号PM",
+        "role": "B端SaaS商业化重构",
+        "path": "episodes/ep01/media/images/角色/一号PM-三视图-v01.png",
+        "style": "深海军蓝西装、象牙白衬衫、齐肩深棕发，精英干练"
+      },
+      {
+        "id": "pm-02",
+        "name": "二号PM",
+        "role": "C端用户增长",
+        "path": "episodes/ep01/media/images/角色/二号PM-三视图-v01.png",
+        "style": "珊瑚橙针织外套、米白长裤、层次波浪长发，灵动外向"
+      },
+      {
+        "id": "pm-03",
+        "name": "三号PM",
+        "role": "敏捷产品管理",
+        "path": "episodes/ep01/media/images/角色/三号PM-三视图-v01.png",
+        "style": "炭灰极简西装、黑色高领、低马尾与细框眼镜，冷静知性"
+      }
+    ],
+    "singleViews": {
+      "pm-01": {
+        "front": "episodes/ep01/media/images/角色/单视图/一号PM-正面-v01.png",
+        "side": "episodes/ep01/media/images/角色/单视图/一号PM-侧面-v01.png",
+        "back": "episodes/ep01/media/images/角色/单视图/一号PM-背面-v01.png"
+      },
+      "pm-02": {
+        "front": "episodes/ep01/media/images/角色/单视图/二号PM-正面-v01.png",
+        "side": "episodes/ep01/media/images/角色/单视图/二号PM-侧面-v01.png",
+        "back": "episodes/ep01/media/images/角色/单视图/二号PM-背面-v01.png"
+      },
+      "pm-03": {
+        "front": "episodes/ep01/media/images/三号PM-正面-v02.png",
+        "side": "episodes/ep01/media/images/角色/单视图/三号PM-侧面-v01.png",
+        "back": "episodes/ep01/media/images/角色/单视图/三号PM-背面-v01.png"
+      }
+    }
+  }
+}

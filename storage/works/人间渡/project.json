@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "projectId": "人间渡",
+  "title": "人间渡",
+  "titleNote": "剧名。鬼医闻笙渡鬼入轮回，借鬼写人、讲人间憾事；他渡遍人间鬼，最终要渡的是自己。",
+  "owner": "漫剧agent",
+  "status": "planning",
+  "ipStatus": "original",
+  "format": {
+    "note": "以 story/bible.json 的 format 字段为准，此处仅为索引冗余；两处不一致时以 bible.json 为准。",
+    "platform": "红果等免费流量短剧",
+    "episodes": 24,
+    "episodeDurationSec": 150,
+    "units": 12,
+    "episodesPerUnit": 2,
+    "aspectRatio": "9:16",
+    "noSubtitles": true
+  },
+  "sourceOfTruth": {
+    "project": "project.json",
+    "story": "story/",
+    "episode": "episodes/u<单元序号>-ep<起>-<止>-<单元名>/ep<NN>/",
+    "media": "episodes/u<单元序号>-ep<起>-<止>-<单元名>/ep<NN>/media/",
+    "delivery": "episodes/u<单元序号>-ep<起>-<止>-<单元名>/ep<NN>/DELIVERY.md",
+    "note": "单集目录按故事单元分组。具体路径查 episodes[].dir，不要自己拼。"
+  },
+  "story": {
+    "bible": "story/bible.json",
+    "outline": "story/outline.json",
+    "compliance": "story/00-原创性自查.md",
+    "voiceStyle": "story/声音风格分类.md",
+    "chapters": "story/chapters/",
+    "voiceCasting": "story/音色分配表.md"
+  },
+  "production": {
+    "videoModel": "wan3.0-video",
+    "videoModelNote": "阿里云百炼万相3.0标准版。",
+    "ratio": "9:16",
+    "ratioNote": "必须显式指定；默认 adaptive 会出横屏。",
+    "audio": true,
+    "noSubtitles": true,
+    "maxSegmentSec": 30,
+    "fps": 30,
+    "resolutionDraft": "480P",
+    "resolutionFinal": "1080P",
+    "resolutionNote": "480P 小样过审后出 1080P 是重新生成，不是升级——预算按两遍算。"
+  },
+  "episodeDirConvention": {
+    "说明": "单集目录按【故事单元】分组。每个单元 = 2 集（问诊篇 + 了结篇），约 300 秒讲完一个完整故事。",
+    "布局": "episodes/u<单元序号>-ep<起>-<止>-<单元名>/ep<NN>/",
+    "例": "episodes/u1-ep01-02-叶生/ep01/ep01.md",
+    "单元定义来源": "story/outline.json 的『故事单元』一节是唯一权威。单元名或集范围一改，目录必须同步改名。"
+  },
+  "unitIndex": [
+    {
+      "unit": 1,
+      "dir": "episodes/u1-ep01-02-叶生",
+      "episodes": "01-02",
+      "name": "叶生（执念之鬼）",
+      "source": "《聊斋志异·叶生》"
+    },
+    {
+      "unit": 2,
+      "dir": "episodes/u2-ep03-04-小翠",
+      "episodes": "03-04",
+      "name": "小翠（报恩与放手）",
+      "source": "《聊斋志异·小翠》"
+    },
+    {
+      "unit": 3,
+      "dir": "episodes/u3-ep05-06-公孙九娘",
+      "episodes": "05-06",
+      "name": "公孙九娘（被辜负的承诺）",
+      "source": "《聊斋志异·公孙九娘》"
+    },
+    {
+      "unit": 4,
+      "dir": "episodes/u4-ep07-08-王六郎",
+      "episodes": "07-08",
+      "name": "王六郎（告别）",
+      "source": "《聊斋志异·王六郎》"
+    },
+    {
+      "unit": 5,
+      "dir": "episodes/u5-ep09-10-婴宁",
+      "episodes": "09-10",
+      "name": "婴宁（被夺走的笑）",
+      "source": "《聊斋志异·婴宁》"
+    },
+    {
+      "unit": 6,
+      "dir": "episodes/u6-ep11-12-连城",
+      "episodes": "11-12",
+      "name": "连城（生死痴情）",
+      "source": "《聊斋志异·连城》"
+    },
+    {
+      "unit": 7,
+      "dir": "episodes/u7-ep13-14-香玉",
+      "episodes": "13-14",
+      "name": "香玉（为爱舍身）",
+      "source": "《聊斋志异·香玉》"
+    },
+    {
+      "unit": 8,
+      "dir": "episodes/u8-ep15-16-侠女",
+      "episodes": "15-16",
+      "name": "侠女（隐忍深情）",
+      "source": "《聊斋志异·侠女》"
+    },
+    {
+      "unit": 9,
+      "dir": "episodes/u9-ep17-18-田七郎",
+      "episodes": "17-18",
+      "name": "田七郎（报恩至死）",
+      "source": "《聊斋志异·田七郎》"
+    },
+    {
+      "unit": 10,
+      "dir": "episodes/u10-ep19-20-孤灯",
+      "episodes": "19-20",
+      "name": "孤灯（等的人早已不在）",
+      "source": "原创"
+    },
+    {
+      "unit": 11,
+      "dir": "episodes/u11-ep21-22-渡人",
+      "episodes": "21-22",
+      "name": "渡人（渡人者不自渡）",
+      "source": "原创"
+    },
+    {
+      "unit": 12,
+      "dir": "episodes/u12-ep23-24-阿离",
+      "episodes": "23-24",
+      "name": "阿离（季末·渡自己）",
+      "source": "原创"
+    }
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "衣锦还乡",
+      "unit": 1,
+      "dir": "episodes/u1-ep01-02-叶生/ep01",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 2,
+      "title": "可曾活过",
+      "unit": 1,
+      "dir": "episodes/u1-ep01-02-叶生/ep02",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 3,
+      "title": "报恩",
+      "unit": 2,
+      "dir": "episodes/u2-ep03-04-小翠/ep03",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 4,
+      "title": "那支花",
+      "unit": 2,
+      "dir": "episodes/u2-ep03-04-小翠/ep04",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 5,
+      "title": "迁骨之约",
+      "unit": 3,
+      "dir": "episodes/u3-ep05-06-公孙九娘/ep05",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 6,
+      "title": "怎么忘了",
+      "unit": 3,
+      "dir": "episodes/u3-ep05-06-公孙九娘/ep06",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 7,
+      "title": "渔与鬼",
+      "unit": 4,
+      "dir": "episodes/u4-ep07-08-王六郎/ep07",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 8,
+      "title": "成神别",
+      "unit": 4,
+      "dir": "episodes/u4-ep07-08-王六郎/ep08",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 9,
+      "title": "爱笑的狐",
+      "unit": 5,
+      "dir": "episodes/u5-ep09-10-婴宁/ep09",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 10,
+      "title": "不笑了",
+      "unit": 5,
+      "dir": "episodes/u5-ep09-10-婴宁/ep10",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 11,
+      "title": "生死",
+      "unit": 6,
+      "dir": "episodes/u6-ep11-12-连城/ep11",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 12,
+      "title": "痴情",
+      "unit": 6,
+      "dir": "episodes/u6-ep11-12-连城/ep12",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 13,
+      "title": "花妖",
+      "unit": 7,
+      "dir": "episodes/u7-ep13-14-香玉/ep13",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 14,
+      "title": "舍身",
+      "unit": 7,
+      "dir": "episodes/u7-ep13-14-香玉/ep14",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 15,
+      "title": "侠女",
+      "unit": 8,
+      "dir": "episodes/u8-ep15-16-侠女/ep15",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 16,
+      "title": "隐忍",
+      "unit": 8,
+      "dir": "episodes/u8-ep15-16-侠女/ep16",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 17,
+      "title": "以死相报",
+      "unit": 9,
+      "dir": "episodes/u9-ep17-18-田七郎/ep17",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 18,
+      "title": "可曾为自己",
+      "unit": 9,
+      "dir": "episodes/u9-ep17-18-田七郎/ep18",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 19,
+      "title": "一盏灯",
+      "unit": 10,
+      "dir": "episodes/u10-ep19-20-孤灯/ep19",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 20,
+      "title": "等不到的人",
+      "unit": 10,
+      "dir": "episodes/u10-ep19-20-孤灯/ep20",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 21,
+      "title": "同病",
+      "unit": 11,
+      "dir": "episodes/u11-ep21-22-渡人/ep21",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 22,
+      "title": "渡人者",
+      "unit": 11,
+      "dir": "episodes/u11-ep21-22-渡人/ep22",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 23,
+      "title": "渡我",
+      "unit": 12,
+      "dir": "episodes/u12-ep23-24-阿离/ep23",
+      "status": "剧本已成稿"
+    },
+    {
+      "episode": 24,
+      "title": "渡自己",
+      "unit": 12,
+      "dir": "episodes/u12-ep23-24-阿离/ep24",
+      "status": "剧本已成稿"
+    }
+  ],
+  "createdOn": "2026-09-08"
+}
