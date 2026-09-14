@@ -5,6 +5,8 @@ node_modules/
 .next/
 
 # Generated media and local build outputs
-storage/**/media/
+storage/**/地下三层/
+storage/**/人间渡/
+storage/**/昨晚在商K点了一个产品经理/
 images/
 tsconfig.tsbuildinfo

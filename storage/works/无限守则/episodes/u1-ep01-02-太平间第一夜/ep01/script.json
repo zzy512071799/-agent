@@ -100,6 +100,50 @@
       "frameApprovalStatus": "pending"
     },
     {
+      "id": "S1-01B",
+      "sceneId": "sc4",
+      "segmentId": "S1-01B",
+      "durationSec": 8,
+      "shotSize": "中景跟拍",
+      "cameraMove": "侧后方跟拍，速度与步行一致，轻微手持",
+      "characterIds": [
+        "chenmo",
+        "laozhou"
+      ],
+      "action": "防火门合拢后陈默背光走入走廊，沿走廊走向深处，在尽头灯下与拿回执单的老周相对站定",
+      "actionEn": "Door closes behind Chen Mo, he walks in backlit down the corridor toward the old guard waiting under the end lamp, they stop face to face",
+      "lines": [
+        {
+          "characterId": "laozhou",
+          "text": "陈默？交接，十分钟。",
+          "emotion": "neutral"
+        },
+        {
+          "characterId": "chenmo",
+          "text": "……比招聘软件还快。",
+          "emotion": "neutral"
+        }
+      ],
+      "sfx": "脚步混响、低频嗡鸣、日光灯电流声",
+      "sfxEn": "footstep reverb, low drone, fluorescent buzz",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长8秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。 镜头参数：中景跟拍（镜头在青年侧后方随行），焦段35mm等效，跟随速度与步行一致，轻微手持。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片1（S1-01B_grid.png）为四宫关键帧主参考，按其节奏连续完成起承转合，不切镜，承接上一段防火门被推开的门缝黑线；@图片2（chenmo_ref.png）锁定青年五官、黑色短发、肤色与深蓝夹克灰卫衣着装，全片生效；@图片3（laozhou_ref.png）锁定老人五官、灰白寸头、深眼袋与藏青保安制服，全片生效；@图片4（sc4_morgue_corridor.png）锁定走廊纵深、反光地面与尽头顶灯的空间关系。画面：@图片4的走廊里，防火门在青年身后合拢，他背光走入，轮廓被门口惨白光勾亮；他沿走廊向深处走，脚步放松但带着戒备，顶灯光斑在地面上滑过（@图片2 中的外观全程锁定）；走廊尽头灯下的@图片3（老周）身影渐渐清晰，手里捏着一张纸单；两人在灯下相对站定，老人抬起下巴示意，捏纸单的手抬了起来。纸单字迹为模糊手写痕迹，不给可读特写。对白：老人看着回执单，沙哑平缓：「陈默？交接，十分钟。」青年低声、疲惫、略快但自然，像自言自语，不面向镜头：「……比招聘软件还快。」结束状态：两人在走廊尽头灯下相对站定，老周捏纸单的手抬起，正要往值班室方向引路。音效：脚步声在走廊里的混响、低频嗡鸣、日光灯电流声。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 8s, photoreal horror, tracking shot down morgue corridor to the waiting guard under end lamp",
+      "wan3Mode": "reference",
+      "wan3EndState": "两人在灯下相对站定，老周捏纸单的手抬起",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S1-01B_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/角色/laozhou_ref.png",
+        "media/images/场景/sc4_morgue_corridor.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长8秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。 镜头参数：中景跟拍（镜头在青年侧后方随行），焦段35mm等效，跟随速度与步行一致，轻微手持。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片1（S1-01B_grid.png）为四宫关键帧主参考，按其节奏连续完成起承转合，不切镜，承接上一段防火门被推开的门缝黑线；@图片2（chenmo_ref.png）锁定青年五官、黑色短发、肤色与深蓝夹克灰卫衣着装，全片生效；@图片3（laozhou_ref.png）锁定老人五官、灰白寸头、深眼袋与藏青保安制服，全片生效；@图片4（sc4_morgue_corridor.png）锁定走廊纵深、反光地面与尽头顶灯的空间关系。画面：@图片4的走廊里，防火门在青年身后合拢，他背光走入，轮廓被门口惨白光勾亮；他沿走廊向深处走，脚步放松但带着戒备，顶灯光斑在地面上滑过（@图片2 中的外观全程锁定）；走廊尽头灯下的@图片3（老周）身影渐渐清晰，手里捏着一张纸单；两人在灯下相对站定，老人抬起下巴示意，捏纸单的手抬了起来。纸单字迹为模糊手写痕迹，不给可读特写。对白：老人看着回执单，沙哑平缓：「陈默？交接，十分钟。」青年低声、疲惫、略快但自然，像自言自语，不面向镜头：「……比招聘软件还快。」结束状态：两人在走廊尽头灯下相对站定，老周捏纸单的手抬起，正要往值班室方向引路。音效：脚步声在走廊里的混响、低频嗡鸣、日光灯电流声。 引用映射：@图片1（S1-01B_grid.png）四宫关键帧主参考；@图片2（chenmo_ref.png）角色三视图；@图片3（laozhou_ref.png）角色三视图；@图片4（sc4_morgue_corridor.png）场景锚点图。"
+    },
+    {
       "id": "S1-02",
       "sceneId": "sc2",
       "segmentId": "S1-02",

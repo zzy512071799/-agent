@@ -1,0 +1,102 @@
+{
+  "note": "ep02 资产清单。status=pending 表示尚未生成。；风格=真人实拍质感；主参考=每镜头段四宫关键帧图（2x2，起/承/转/合）",
+  "status": "generated",
+  "characters": [
+    {
+      "id": "chenmo",
+      "path": "media/images/角色/chenmo_ref.png",
+      "spec": "同ep01，保持外观一致",
+      "exprPath": "media/images/角色/chenmo_expr.png"
+    },
+    {
+      "id": "laozhou",
+      "path": "media/images/角色/laozhou_ref.png",
+      "spec": "同ep01，增加左耳耳塞细节",
+      "exprPath": "media/images/角色/laozhou_expr.png"
+    },
+    {
+      "id": "woman",
+      "path": "media/images/角色/woman_ref.png",
+      "spec": "黑西装女性，眼眶红肿，指甲缝黄泥",
+      "exprPath": "media/images/角色/woman_expr.png"
+    },
+    {
+      "id": "aheng",
+      "path": "media/images/角色/aheng_ref.png",
+      "spec": "白裙长发遮半脸，赤足，无影（生成时在负向提示排除影子）",
+      "exprPath": "media/images/角色/aheng_expr.png"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "sc1",
+      "path": "media/images/场景/sc1_corridor.png"
+    },
+    {
+      "id": "sc2",
+      "path": "media/images/场景/sc2_duty_room.png"
+    },
+    {
+      "id": "sc3",
+      "path": "media/images/场景/sc3_reception.png"
+    }
+  ],
+  "props": [
+    {
+      "name": "候补名单界面",
+      "path": "media/images/屏幕/prop_system_roster.png",
+      "spec": "系统内页：手写体名字列，最下方高亮'陈默'"
+    },
+    {
+      "name": "五条守则塑封纸条",
+      "path": "media/images/道具/prop_rules_five.png",
+      "spec": "第五条墨色泛灰发亮（篡改痕迹）"
+    },
+    {
+      "name": "登记簿",
+      "path": "media/images/道具/prop_ledger.png",
+      "spec": "牛皮封面，017号页"
+    },
+    {
+      "name": "红色警铃",
+      "path": "media/images/道具/prop_bell.png",
+      "spec": "台面下老式红色按钮+旋转警示灯"
+    },
+    {
+      "name": "当值凭证（半张）",
+      "path": "media/images/道具/prop_voucher_half.png",
+      "spec": "老周日单时代遗物，米黄票根，撕痕整齐"
+    }
+  ],
+  "storyboards": [
+    "S2-01_first",
+    "S2-01_last",
+    "S2-02_first",
+    "S2-03_first",
+    "S2-03_last",
+    "S2-04_first",
+    "S2-04_last",
+    "S2-05_first",
+    "S2-05_last",
+    "S2-06_first",
+    "S2-07_first",
+    "S2-07_last"
+  ],
+  "count": {
+    "characters": 4,
+    "scenes": 3,
+    "props": 4,
+    "storyboards": 12
+  },
+  "style": "真人实拍质感，电影感冷青调色（Nano Banana Pro 2K）",
+  "fourGrids": [
+    "media/images/分镜/S2-01_grid.png",
+    "media/images/分镜/S2-02_grid.png",
+    "media/images/分镜/S2-03_grid.png",
+    "media/images/分镜/S2-04_grid.png",
+    "media/images/分镜/S2-05_grid.png",
+    "media/images/分镜/S2-06_grid.png",
+    "media/images/分镜/S2-07_grid.png"
+  ],
+  "fourGridNote": "四宫图为该镜头段主要参考：2x2四帧=段起点/发展/转折/段尾"
+}

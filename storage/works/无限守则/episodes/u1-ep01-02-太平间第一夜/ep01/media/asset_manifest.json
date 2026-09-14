@@ -1,0 +1,89 @@
+{
+  "note": "ep01 资产清单。所有 refImagePath 已在 script.json 中引用；status=pending 表示尚未生成，生成前不得调用万相出片（wan3-prompt-writer 规则：媒体引用必须真实存在）。；风格=真人实拍质感；主参考=每镜头段四宫关键帧图（2x2，起/承/转/合）",
+  "status": "generated",
+  "characters": [
+    {
+      "id": "chenmo",
+      "path": "media/images/角色/chenmo_ref.png",
+      "spec": "正面半身+全身各一，冷青底光，插画恐怖风格",
+      "exprPath": "media/images/角色/chenmo_expr.png"
+    },
+    {
+      "id": "laozhou",
+      "path": "media/images/角色/laozhou_ref.png",
+      "spec": "正面半身，保温杯入画，藏青保安服",
+      "exprPath": "media/images/角色/laozhou_expr.png"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "sc1",
+      "path": "media/images/场景/sc1_hospital_night.png"
+    },
+    {
+      "id": "sc2",
+      "path": "media/images/场景/sc2_duty_room.png"
+    },
+    {
+      "id": "sc3",
+      "path": "media/images/场景/sc3_cold_room.png"
+    },
+    {
+      "id": "sc4",
+      "path": "media/images/场景/sc4_morgue_corridor.png"
+    }
+  ],
+  "props": [
+    {
+      "name": "守夜系统推送界面",
+      "path": "media/images/屏幕/prop_system_push.png",
+      "spec": "旧手机锁屏通知卡片：无来源、【守夜系统】当值通知、三行正文，冷青UI"
+    },
+    {
+      "name": "塑封守则纸条",
+      "path": "media/images/道具/prop_rules_slip.png",
+      "spec": "塑封起毛，四条手写编号（老周纸单时代遗物）"
+    },
+    {
+      "name": "值班记录本",
+      "path": "media/images/道具/prop_logbook.png",
+      "spec": "牛皮纸包，环形旧印章扉页"
+    },
+    {
+      "name": "保温杯",
+      "path": "media/images/道具/prop_thermos.png",
+      "spec": "老式不锈钢，枸杞可辨"
+    }
+  ],
+  "storyboards": [
+    "S1-01_first",
+    "S1-02_first",
+    "S1-02_last",
+    "S1-03_first",
+    "S1-04_first",
+    "S1-04_last",
+    "S1-05_first",
+    "S1-05_last",
+    "S1-06_first",
+    "S1-06_last",
+    "S1-07_first",
+    "S1-07_last"
+  ],
+  "count": {
+    "characters": 2,
+    "scenes": 4,
+    "props": 4,
+    "storyboards": 12
+  },
+  "style": "真人实拍质感，电影感冷青调色（Nano Banana Pro 2K）",
+  "fourGrids": [
+    "media/images/分镜/S1-01_grid.png",
+    "media/images/分镜/S1-02_grid.png",
+    "media/images/分镜/S1-03_grid.png",
+    "media/images/分镜/S1-04_grid.png",
+    "media/images/分镜/S1-05_grid.png",
+    "media/images/分镜/S1-06_grid.png",
+    "media/images/分镜/S1-07_grid.png"
+  ],
+  "fourGridNote": "四宫图为该镜头段主要参考：2x2四帧=段起点/发展/转折/段尾"
+}
