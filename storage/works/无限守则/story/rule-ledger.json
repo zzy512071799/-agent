@@ -1,0 +1,87 @@
+{
+  "note": "规则账本：连接规则的小说证据、剧本证据、视频表现和回收状态。status: seed|active|resolved",
+  "rules": [
+    {
+      "ruleId": "R-001",
+      "unit": "u1",
+      "statement": "23:00后不要回应任何敲门。敲三下的是'查房'。",
+      "firstNovelChapter": "001-u1-太平间第一夜.md",
+      "firstEpisode": "ep01",
+      "observableEvidence": "门被敲三下后门缝下渗出一线拖痕状水渍；门外无影子",
+      "knownBy": ["chenmo", "laozhou"],
+      "violationAction": "回应或开门",
+      "consequence": "应门者被'请'进走廊，成为下一具'登记对象'",
+      "exceptions": ["日出后正常探视敲门不受限"],
+      "recoveryEpisode": "ep02",
+      "visualization": "俯拍门缝水渍线爬向门口；门内主角捂嘴后退的影子投在门上",
+      "status": "active"
+    },
+    {
+      "ruleId": "R-002",
+      "unit": "u1",
+      "statement": "11号冰柜若自己滑开，10秒内推回，并说'登记过了'。",
+      "firstNovelChapter": "001-u1-太平间第一夜.md",
+      "firstEpisode": "ep01",
+      "observableEvidence": "冰柜把手结霜融化为水珠下滴；柜内白布下手指先蜷了一下",
+      "knownBy": ["chenmo", "laozhou"],
+      "violationAction": "超时未关，或推回时不说话",
+      "consequence": "11号柜内的滞留者坐起，走廊灯全灭",
+      "exceptions": ["登记簿上有'已转运'红章时可不开"],
+      "recoveryEpisode": "ep01",
+      "visualization": "手腕特写推柜门+口型说台词；倒计时以挂钟秒针与融霜水滴双线索呈现",
+      "status": "active"
+    },
+    {
+      "ruleId": "R-003",
+      "unit": "u1",
+      "statement": "走廊尽头灯闪绿光时，背靠墙数二十秒再走。",
+      "firstNovelChapter": "001-u1-太平间第一夜.md",
+      "firstEpisode": "ep01",
+      "observableEvidence": "绿光期间走廊尽头地板上多出一串赤足湿脚印，方向朝镜头",
+      "knownBy": ["chenmo", "laozhou"],
+      "violationAction": "绿光期间继续行走",
+      "consequence": "走进绿光的人会从走廊另一头'倒着走出来'——动作还是自己的，脸不对",
+      "exceptions": [],
+      "recoveryEpisode": "ep02",
+      "visualization": "固定机位长廊，绿光频闪下湿脚印逐格逼近；主角背后贴墙的呼吸声放大",
+      "status": "active"
+    },
+    {
+      "ruleId": "R-004",
+      "unit": "u1",
+      "statement": "家属认尸必须核对登记簿死亡时间。两者不一致，立即按警铃，不要解释。",
+      "firstNovelChapter": "001-u1-太平间第一夜.md",
+      "firstEpisode": "ep02",
+      "observableEvidence": "家属报出的死亡时间比登记簿早/晚整三小时；登记簿该页字迹会渗墨",
+      "knownBy": ["chenmo"],
+      "violationAction": "试图与家属争辩或指出矛盾",
+      "consequence": "被争辩的'家属'会记住你的脸，下一晚以新的身份回来",
+      "exceptions": ["警铃本身坏了的夜晚（老周值班记录第7页）"],
+      "recoveryEpisode": "ep02",
+      "visualization": "登记簿时间与家属口述时间的正反打；警铃按钮特写+红色警示灯旋转",
+      "status": "active"
+    },
+    {
+      "ruleId": "R-005",
+      "unit": "u1",
+      "statement": "凌晨三点后若有人叫你的名字，立刻答应，不然他会一直叫下去。（假守则，篡改者植入）",
+      "firstNovelChapter": "001-u1-太平间第一夜.md",
+      "firstEpisode": "ep02",
+      "observableEvidence": "这条守则的编号墨色与其他四条不同；陈默读它时耳鸣；纸条边缘有玻璃反光里的人形倒影",
+      "knownBy": [],
+      "violationAction": "答应",
+      "consequence": "被点名者应声，声音被'收走'——从此点名者可以随时用你的声音说话（老周左耳失聪与此相关）",
+      "exceptions": ["真守则编号为固定四条，出现第五条即是假"],
+      "recoveryEpisode": "ep02",
+      "visualization": "纸条特写墨色差异；耳鸣音效高频爬升；玻璃门倒影中转身人形一闪",
+      "status": "active"
+    }
+  ],
+  "crossUnitSeeds": [
+    { "id": "seed-01", "content": "系统'候补名单'页面里的名字列表", "firstEpisode": "ep01" },
+    { "id": "seed-02", "content": "陈默手腕打卡痕", "firstEpisode": "ep01" },
+    { "id": "seed-03", "content": "阿蘅无影", "firstEpisode": "ep01" },
+    { "id": "seed-04", "content": "老周值班记录本+撕半的当值凭证", "firstEpisode": "ep02" },
+    { "id": "seed-05", "content": "玻璃里的转身人形", "firstEpisode": "ep02" }
+  ]
+}

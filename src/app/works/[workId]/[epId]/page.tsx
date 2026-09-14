@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useState, useEffect, useCallback, useRef } from 'react';
+import { Fragment, useState, useEffect, useCallback, useRef, type ReactNode } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import {
@@ -1156,11 +1156,22 @@ function PromptText({
   prompt, deps, workId, epId,
 }: { prompt: string; deps: DepItem[]; workId: string; epId: string }) {
   const byToken = new Map(deps.filter((dep) => dep.token).map((dep) => [dep.token, dep]));
+  // 先按 @图片N 切，非引用片段再按「对白」切：台词用独立颜色高亮，方便逐句核对
+  const renderText = (text: string, keyPrefix: string): ReactNode[] =>
+    text.split(/(「[^」]*」)/g).map((piece, i) =>
+      piece.startsWith('「') && piece.endsWith('」') ? (
+        <span key={`${keyPrefix}-${i}`} className="rounded bg-emerald-500/15 px-0.5 text-emerald-300">
+          {piece}
+        </span>
+      ) : (
+        <Fragment key={`${keyPrefix}-${i}`}>{piece}</Fragment>
+      ),
+    );
   return (
     <>
       {prompt.split(/(@图片\d+)/g).map((part, index) => {
         const dep = byToken.get(part);
-        if (!dep) return <Fragment key={index}>{part}</Fragment>;
+        if (!dep) return renderText(part, String(index));
         const href = dep.previewUrl ?? `/api/images/${encodeURIComponent(workId)}/${encodeURIComponent(epId)}/${encodeURIComponent(dep.name)}`;
         return dep.exists && dep.previewUrl ? (
           <a

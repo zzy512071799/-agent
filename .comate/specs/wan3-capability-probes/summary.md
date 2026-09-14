@@ -1,36 +1,25 @@
-# Wan3 三镜头能力测试阶段总结
+# Wan3 三镜头能力测试完成总结
 
 ## 已完成
 
-- 创建 EP02 独立探针配置 `probes.json`，包含 P01、P02、P03。
-- 生成并复制两张动作首帧图：
-  - `media/images/分镜/叶生-棺前惊恐站姿.png`
-  - `media/images/分镜/叶生-跪姿扶棺.png`
-- P01 使用真实“棺前惊恐站姿”图，验证表情与后退动作。
-- P02 使用闻笙正面角色图，验证单句对白“你早死了。”。
-- P03 使用真实“跪姿扶棺”图，验证从手指开始的消散动作。
-- 新增只读接口 `src/app/api/probes/route.ts`，读取探针配置并返回：Prompt、时长、参考图、图片预览地址和 token 校验结果。
-- 正式 EP02 链仍保持 `C01-C16`，探针不会进入正式镜头链。
+- 保留 EP02 正式 `script.json` 与 `C01-C16` 不变。
+- 新增探针专用接口 `src/app/api/probe-produce/route.ts`。
+- 接口只允许 `P01`、`P02`、`P03`，读取对应 episode 目录下的 `probes.json`。
+- 对探针 ID、reference 模式、时长、参考图存在性及 `@图片N` 编号进行校验。
+- 复用 `createWan3Provider`，使用标准版 Wan3、关闭 prompt_extend，并将视频输出隔离到 `media/probes/P01.mp4`、`P02.mp4`、`P03.mp4`。
+- 支持 `dry=1` 非计费校验，不调用 Wan3 API。
+- `npm run typecheck` 已通过。
+- `npm run build` 已启动，结果待命令完成通知。
 
-## 验证结果
+## 调用约定
 
-- `/api/probes?work=人间渡&episode=ep02` 返回 P01、P02、P03。
-- 三个探针的图片预览地址均生成成功。
-- 三个探针的 `@图片N` 引用校验均为有效。
-- `production` 为 `probe-only`。
-- `requiresUserConfirmationForGeneration` 为 `true`。
-- `npm run typecheck` 通过。
-- `npm run build` 通过，退出码为 `0`。
+```text
+GET /api/probe-produce?work=人间渡&episodeDir=episodes/u1-ep01-02-叶生/ep02&probe=P01&dry=1
+```
 
-## 当前未执行
+正式调用时去掉 `dry=1`。接口成功返回 Wan3 `taskId`、本地视频路径和耗时；鉴权、模型或账户失败会原样返回错误，不伪装为成功。
 
-- 未调用 Wan3 API。
-- 未生成 P01、P02、P03 视频。
-- 未产生视频生成费用。
-- 未覆盖正式 EP02 视频或 `C01-C16` 配置。
+## 当前限制
 
-## 下一步
-
-测试配置和预览接口已经就绪。正式生成仍需用户明确确认；确认后按 P01 → P02 → P03 顺序生成，每个视频完成后先检查动作、表情、口型、声音和尾帧，再决定是否推广到完整 EP02。
-
-构建输出仍有既有 Next.js 动态文件系统 tracing warning 和本机 npm 配置 warning，不影响构建结果。
+- 尚未正式提交 P01/P02/P03 Wan3 任务，因此没有声称视频已生成。
+- 三个探针仍需在用户明确执行后逐个提交，并对动作轨迹、表情、口型、声音、特效连续性和尾帧逐镜检查。

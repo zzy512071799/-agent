@@ -1,0 +1,32 @@
+{
+  "season1": {
+    "premise": "陈默以守夜人身份经历12个副本，从被动求生到主动追查'守夜系统'的来源；季终在'调度中心'见到发单制度的一角，确认自己手腕的打卡痕是'预注册'标志——他早在成为守夜人之前就在系统的候补名单上。",
+    "unitCount": 12,
+    "episodeCount": 24,
+    "seasonClosed": true,
+    "venueProgression": ["太平间", "老公寓", "停业百货", "末班轮渡", "住院部旧楼", "山间旅馆", "高考考点", "地铁末班车", "养老院", "档案室", "殡仪馆", "调度中心"],
+    "antagonistStages": [
+      { "stage": "u1-u4", "nature": "各副本的地方异常+单只篡改者，学会生存" },
+      { "stage": "u5-u8", "nature": "篡改者开始跨副本跟人，规则被系统性污染" },
+      { "stage": "u9-u12", "nature": "制度本身：守夜系统背后的秩序方与陈默的谈判/对抗" }
+    ],
+    "abilityProgression": [
+      { "stage": "u1", "ability": "听见守则（真守则自明，假守则耳鸣）", "cost": "每次使用+1秒耳鸣" },
+      { "stage": "u6", "ability": "短时'改写'一条次级守则", "cost": "耳鸣从秒变分钟，左耳开始失聪征兆" },
+      { "stage": "u12", "ability": "识破整个副本的守则结构", "cost": "揭穿时必须在场所有一个替身承受反噬" }
+    ],
+    "seeds": [
+      { "id": "seed-01", "content": "系统'候补名单'页面里的名字列表（u1出现第一个：非陈默）", "plantedEpisode": "ep01", "earliestRecovery": "u12" },
+      { "id": "seed-02", "content": "陈默手腕内侧的浅色打卡痕（多场景可拍物件）", "plantedEpisode": "ep01", "earliestRecovery": "u12" },
+      { "id": "seed-03", "content": "白裙女子阿蘅无影，在走廊尽头出现一次不追人", "plantedEpisode": "ep01", "earliestRecovery": "u4再现/u12回收" },
+      { "id": "seed-04", "content": "老周的值班记录本里夹着一张撕掉一半的当值凭证", "plantedEpisode": "ep02", "earliestRecovery": "u12" },
+      { "id": "seed-05", "content": "篡改者在玻璃里的转身人形（可拍，不露全貌）", "plantedEpisode": "ep02", "earliestRecovery": "u5" }
+    ],
+    "discipline": [
+      "每季自身闭环，不以'下一季揭晓'掩盖本季未完成",
+      "所有长线伏笔必须是可拍摄的具体物件、数字、动作或口误，禁止抽象暗示",
+      "每个单元结论必须改变至少一项可观察状态（人、物、规则、地点四选一）"
+    ]
+  },
+  "season2Preview": "守夜系统开始给陈默'加派'：同一晚两个场所。制度方要求他成为新的篡改者清查员。"
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "projectId": "无限守则",
+  "title": "无限守则",
+  "titleNote": "无限流+规则怪谈。主角是被神秘'守夜系统'推送调度的守夜人（老一辈为纸质排班单，陈默是系统时代第一批），每单元一个诡异场所+一套守则。",
+  "status": "production",
+  "ipStatus": "original",
+  "platform": {
+    "name": "红果短剧",
+    "distribution": "竖屏9:16",
+    "note": "发布要求以交付时红果后台实际要求为准，本文件不写死未核验的平台参数"
+  },
+  "format": {
+    "aspectRatio": "9:16",
+    "episodeTargetSec": 150,
+    "resolution": {
+      "draft": "480P",
+      "final": "1080P"
+    },
+    "videoModel": "wan3.0-video",
+    "subtitle": "none"
+  },
+  "sourceOfTruth": {
+    "bible": "story/bible.json",
+    "saga": "story/saga.json",
+    "outline": "story/outline.json",
+    "ruleLedger": "story/rule-ledger.json",
+    "novelChapters": "story/chapters/",
+    "script": "episodes/<unitDir>/<epDir>/script.json"
+  },
+  "story": {
+    "genre": "恐怖灵异·无限流·规则怪谈",
+    "protagonist": "陈默",
+    "throughline": "探明守夜系统来源与守则背后的秩序",
+    "unitStructure": "值班—守则—违规—代价，每副本独立闭环"
+  },
+  "production": {
+    "promptExtend": false,
+    "ratio": "9:16",
+    "draftFirst": true,
+    "reviewGate": "逐镜头动作轨迹/接触/状态连续性/规则证据/台词音轨人工核验",
+    "regenPolicy": "480P小样过审后1080P重新生成，小样不作为升级源"
+  },
+  "unitIndex": [
+    {
+      "unit": "u1",
+      "title": "太平间第一夜",
+      "episodes": [
+        "ep01",
+        "ep02"
+      ],
+      "novelChapter": "story/chapters/001-u1-太平间第一夜.md",
+      "dir": "episodes/u1-ep01-02-太平间第一夜"
+    }
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "第一条守则",
+      "unit": "u1",
+      "dir": "episodes/u1-ep01-02-太平间第一夜/ep01",
+      "screenplay": "ep01.md",
+      "review": "ep01_review.md",
+      "segments": "ep01_segments.md",
+      "script": "script.json",
+      "status": "script-ready"
+    },
+    {
+      "episode": 2,
+      "title": "假守则",
+      "unit": "u1",
+      "dir": "episodes/u1-ep01-02-太平间第一夜/ep02",
+      "screenplay": "ep02.md",
+      "review": "ep02_review.md",
+      "segments": "ep02_segments.md",
+      "script": "script.json",
+      "status": "script-ready"
+    }
+  ],
+  "joinRules": {
+    "chapterToShot": "依据 outline.json 的 chapterShotRanges",
+    "shotToPrompt": "shot标题必须等于 shot.segmentId",
+    "shotToImage": "读取 script.json 的 firstFramePath/lastFramePath",
+    "durationAndMode": "只读 script.json",
+    "delivery": "每集 DELIVERY.md 是唯一交付文件"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "script": {
+    "title": "无限守则 ep02 假守则",
+    "synopsis": "凌晨三点，有人用陈默自己的声音在门外点名，纸条上多出的第五条守则让他耳朵里掀起耳鸣——守则可以被篡改。四点家属认尸报错死亡时间，他按警铃揭穿异常；天亮前老周因三十年前'答应了那声名字'交出记录本退场，系统的候补名单上浮现陈默的名字。",
+    "artStyle": "真人实拍恐怖质感，冷青主色调，绿光与红灯两个强色彩段落，面部不给鬼脸特写",
+    "aspectRatio": "9:16",
+    "musicDirection": "耳鸣高频音全片主轴（假守则识破的听觉证据），电铃为爆点，结尾以风声叹息收束",
+    "musicDirectionEn": "High tinnitus as spine (auditory proof of fake rules), old alarm bell as spike, closing wind sigh",
+    "characters": [
+      {
+        "id": "chenmo",
+        "name": "陈默",
+        "role": "主角/守夜人",
+        "appearance": "26岁男性，黑色短发微乱，眉眼清淡显疲惫，深蓝色旧夹克内搭灰色卫衣，黑色工装裤，白色运动鞋，手腕内侧一道浅色疤痕",
+        "voice": "青年男声，低而略哑，疲惫但稳",
+        "voiceEn": "young male, low slightly husky",
+        "personality": "怂但守信",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/角色/chenmo_ref.png"
+      },
+      {
+        "id": "laozhou",
+        "name": "老周",
+        "role": "前任守夜人",
+        "appearance": "55岁男性，灰白寸头，深眼袋，洗旧的藏青保安制服，左手保温杯，左耳常年耳塞",
+        "voice": "苍老男声，沙哑，语速慢",
+        "voiceEn": "aged male, raspy",
+        "personality": "话少刻板",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/角色/laozhou_ref.png"
+      },
+      {
+        "id": "woman",
+        "name": "认尸家属（异常）",
+        "role": "u1异常",
+        "appearance": "黑色西装女性，眼眶红肿，指甲缝嵌新鲜黄泥，红灯扫过时面容如隔水流动",
+        "voice": "女声，过于平稳，像背诵",
+        "voiceEn": "female, unnaturally steady, reciting",
+        "personality": "伪装的悲伤",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/角色/woman_ref.png"
+      },
+      {
+        "id": "aheng",
+        "name": "阿蘅",
+        "role": "主线种子",
+        "appearance": "白裙长发遮半脸，赤足，无影子",
+        "voice": "无台词",
+        "voiceEn": "no lines",
+        "personality": "安静",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/角色/aheng_ref.png"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "sc1",
+        "name": "停尸走廊",
+        "description": "狭长地下走廊，尽头顶灯可转绿光",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/场景/sc1_corridor.png"
+      },
+      {
+        "id": "sc2",
+        "name": "太平间值班室",
+        "description": "旧台灯、铁皮柜、挂钟、玻璃窗",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/场景/sc2_duty_room.png"
+      },
+      {
+        "id": "sc3",
+        "name": "认尸登记台",
+        "description": "水泥台、老式红色警铃、旋转红色警示灯、悬挂白炽灯",
+        "refImagePath": "episodes/u1-ep01-02-太平间第一夜/ep02/media/images/场景/sc3_reception.png"
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "S2-01",
+      "sceneId": "sc1",
+      "segmentId": "S2-01",
+      "durationSec": 25,
+      "shotSize": "纵深全景→地面特写",
+      "cameraMove": "固定机位纵深长镜头，无推拉，仅轻微手持呼吸感",
+      "characterIds": [
+        "chenmo"
+      ],
+      "action": "2:55陈默到走廊尽头灯下签到簿签名，转身回程时灯转幽绿；他迈半步后耳鸣炸响，反手扣墙数二十秒；绿光中湿赤足脚印一步步逼近；灯复白，脚印停在三米外折返",
+      "actionEn": "At 2:55 Chen Mo signs the register under the corridor-end lamp; on his way back the light turns green; he grips the wall counting twenty as wet bare footprints advance step by step; light snaps white, prints halt and retreat",
+      "lines": [
+        {
+          "characterId": "chenmo",
+          "text": "……十八，十九，二十。",
+          "emotion": "fear"
+        }
+      ],
+      "sfx": "耳鸣尖啸、湿脚印洇开、低频嗡鸣",
+      "sfxEn": "tinnitus shriek, wet prints blooming, low drone",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长25秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片3（绿光走廊场景图）锁定狭长纵深、灯下签到簿与湿脚印洇出的位置关系；@图片2锁定人物五官、发型、肤色与服装，全片生效。镜头参数：固定机位纵深长镜头，无推拉，仅轻微手持呼吸感。@图片1（四宫关键帧图）为主参考，按其节奏连续完成起承转合，不切镜。陈默走到走廊尽头灯下，在签到簿上签下名字，拧亮手电转身往回走；头顶灯突然转为幽绿，整条走廊地面变成水底；他迈出半步骤然缩回，反手扣住墙沿背贴墙——绿光期间他的双脚自始至终没有再移动一步，二十秒内只有下颌在动；嘴唇翕动无声数数；绿光频闪中，尽头地面一串赤足湿脚印凭空洇出，一步、两步朝镜头逼近，脚印上方空无一人；灯啪地恢复惨白，脚印停在距镜头三米处，井然有序折返回尽头。 对白（全部台词不面向镜头表演，口型与发声自然）：他背贴墙，气声数数，嘴唇动作清晰但音量极低：「……十八，十九，二十。」 结束状态：脚印尽褪，灯惨白，他仍贴墙未动。 音效：高频耳鸣尖啸、湿脚印洇地声、低频嗡鸣。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 25s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-01; camera: 固定机位纵深长镜头，无推拉，仅轻微手持呼吸感. End state: 脚印尽褪，灯惨白，他仍贴墙未动。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长25秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片3（绿光走廊场景图）锁定狭长纵深、灯下签到簿与湿脚印洇出的位置关系；@图片2锁定人物五官、发型、肤色与服装，全片生效。镜头参数：固定机位纵深长镜头，无推拉，仅轻微手持呼吸感。@图片1（四宫关键帧图）为主参考，按其节奏连续完成起承转合，不切镜。陈默走到走廊尽头灯下，在签到簿上签下名字，拧亮手电转身往回走；头顶灯突然转为幽绿，整条走廊地面变成水底；他迈出半步骤然缩回，反手扣住墙沿背贴墙——绿光期间他的双脚自始至终没有再移动一步，二十秒内只有下颌在动；嘴唇翕动无声数数；绿光频闪中，尽头地面一串赤足湿脚印凭空洇出，一步、两步朝镜头逼近，脚印上方空无一人；灯啪地恢复惨白，脚印停在距镜头三米处，井然有序折返回尽头。 对白（全部台词不面向镜头表演，口型与发声自然）：他背贴墙，气声数数，嘴唇动作清晰但音量极低：「……十八，十九，二十。」 结束状态：脚印尽褪，灯惨白，他仍贴墙未动。 音效：高频耳鸣尖啸、湿脚印洇地声、低频嗡鸣。 引用映射：@图片1（S2-01_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（sc1_corridor.png）场景锚点图（锁定空间与光线）。",
+      "wan3EndState": "脚印尽褪，灯惨白",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-01_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/场景/sc1_corridor.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-02",
+      "sceneId": "sc2",
+      "segmentId": "S2-02",
+      "durationSec": 20,
+      "shotSize": "纸条特写→面部特写",
+      "cameraMove": "纸条特写缓推至面部特写，推近速度慢幅度小",
+      "characterIds": [
+        "chenmo"
+      ],
+      "action": "台灯下塑封纸条摊开，五条守则，第五条墨色发软发亮；陈默读它瞬间耳鸣掀顶，瞳孔骤缩",
+      "actionEn": "Under the lamp the slip shows five rules, the fifth ink soft and glinting; reading it spikes his tinnitus, pupils contract",
+      "lines": [
+        {
+          "characterId": "chenmo",
+          "text": "……四条。守则只有四条。",
+          "emotion": "fear"
+        }
+      ],
+      "sfx": "高频耳鸣爬升、台灯电流不稳",
+      "sfxEn": "rising tinnitus, flickering lamp buzz",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长20秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片3（值班室场景图）锁定台灯与桌面；@图片2锁定人物五官、发型、肤色与服装，全片生效。镜头参数：纸条特写缓推至面部特写，推近速度慢幅度小。@图片1（四宫关键帧图）为主参考。陈默回到值班室，发现台灯下多了一张摊开的塑封纸条；特写@图片4（五条守则纸条）：五条编号手写规则的压痕，第五条墨色泛灰发亮、笔画发软；所有字迹均为模糊手写痕迹不可读，仅以墨色深浅区分真假，不给纸面文字特写；他逐行读到第五条，耳廓抽动、太阳穴绷起，耳鸣声推高；他痛苦地眯眼抬手压住耳廓，瞳孔骤缩，冷汗滑落。 对白（全部台词不面向镜头表演，口型与发声自然）：他捂着耳侧，从牙缝里挤出气声：「……四条。守则只有四条。」 结束状态：他保持捂耳姿势死死盯着第五条，耳鸣未停。 音效：高频耳鸣爬升、台灯电流不稳的嗡声。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 20s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-02; camera: 纸条特写缓推至面部特写，推近速度慢幅度小. End state: 他保持捂耳姿势死死盯着第五条，耳鸣未停。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长20秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片3（值班室场景图）锁定台灯与桌面；@图片2锁定人物五官、发型、肤色与服装，全片生效。镜头参数：纸条特写缓推至面部特写，推近速度慢幅度小。@图片1（四宫关键帧图）为主参考。陈默回到值班室，发现台灯下多了一张摊开的塑封纸条；特写@图片4（五条守则纸条）：五条编号手写规则的压痕，第五条墨色泛灰发亮、笔画发软；所有字迹均为模糊手写痕迹不可读，仅以墨色深浅区分真假，不给纸面文字特写；他逐行读到第五条，耳廓抽动、太阳穴绷起，耳鸣声推高；他痛苦地眯眼抬手压住耳廓，瞳孔骤缩，冷汗滑落。 对白（全部台词不面向镜头表演，口型与发声自然）：他捂着耳侧，从牙缝里挤出气声：「……四条。守则只有四条。」 结束状态：他保持捂耳姿势死死盯着第五条，耳鸣未停。 音效：高频耳鸣爬升、台灯电流不稳的嗡声。 引用映射：@图片1（S2-02_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（sc2_duty_room.png）场景锚点图（锁定空间与光线）；@图片4（prop_rules_five.png）道具/屏幕参考图。",
+      "wan3EndState": "陈默死死盯着第五条",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-02_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/场景/sc2_duty_room.png",
+        "media/images/道具/prop_rules_five.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-03",
+      "sceneId": "sc2",
+      "segmentId": "S2-03",
+      "durationSec": 30,
+      "shotSize": "过肩→特写→玻璃反差",
+      "cameraMove": "手持微晃跟随，一次快速甩摇从纸条甩向玻璃窗，幅度中速度快，其余时间固定",
+      "characterIds": [
+        "chenmo"
+      ],
+      "action": "门外传来'陈默'——第二声就在门外，用的是他自己的声音；钟摆式重复；陈默捂嘴抓笔在第五条上划下一道，纸条滋地裂开，门外声音戛然而止；玻璃窗上人形转身露白裙一角，眨眼只剩他的倒影",
+      "actionEn": "His own voice calls from outside the door, metronome-like; he covers his mouth, slashes the fifth rule with a pen, the paper splits, voice stops; a figure turns in the glass showing a white dress hem, then only his reflection",
+      "lines": [
+        {
+          "characterId": "chenmo",
+          "text": "陈默，答应我，不然我叫到天亮。",
+          "emotion": "fear"
+        },
+        {
+          "characterId": "chenmo",
+          "text": "……原来你不是守则。你是替它说话的东西。",
+          "emotion": "neutral"
+        }
+      ],
+      "sfx": "伪声回声、笔尖滋啦、耳鸣顶点骤停、玻璃细响",
+      "sfxEn": "echoed mimic voice, pen scratch, tinnitus cutoff, glass crackle",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长30秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片3（值班室场景图）锁定铁门、台灯与玻璃窗三角关系；@图片2锁定人物五官、发型、肤色与服装，全片生效。镜头参数：手持微晃跟随，一次快速甩摇从纸条甩向玻璃窗，幅度中速度快，其余时间固定。@图片1（四宫关键帧图）为主参考。陈默背贴铁门双手捂嘴；门外传来一模一样却隔着一层水感回声的青年男声，钟摆式重复；他猛地抓起圆珠笔在@图片4（五条守则纸条）第五条上狠狠划下一道，墨线划过处留下模糊墨痕，纸面绽开细纹，字迹始终不可读，门外声音戛然而止；他低声说出判词；台灯抖了抖，镜头快速甩向玻璃窗：一个模糊人形正在转身，白裙一角一闪；再眨眼，玻璃上只剩他自己惨白的倒影。 对白（全部台词不面向镜头表演，口型与发声自然）：门外伪声，是他自己的音色，隔水回声，钟摆节奏：「陈默，答应我，不然我叫到天亮。」划裂纸条后他低声说，几乎咬着牙：「……原来你不是守则。你是替它说话的东西。」 结束状态：纸条裂开一道缝，玻璃恢复倒影，他持笔的手在抖。 音效：带水感回声的人声、笔尖划纸的滋啦、耳鸣顶点骤停、玻璃细碎裂纹声。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 30s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-03; camera: 手持微晃跟随，一次快速甩摇从纸条甩向玻璃窗，幅度中速度快，其余时间固定. End state: 纸条裂开一道缝，玻璃恢复倒影，他持笔的手在抖。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长30秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片3（值班室场景图）锁定铁门、台灯与玻璃窗三角关系；@图片2锁定人物五官、发型、肤色与服装，全片生效。镜头参数：手持微晃跟随，一次快速甩摇从纸条甩向玻璃窗，幅度中速度快，其余时间固定。@图片1（四宫关键帧图）为主参考。陈默背贴铁门双手捂嘴；门外传来一模一样却隔着一层水感回声的青年男声，钟摆式重复；他猛地抓起圆珠笔在@图片4（五条守则纸条）第五条上狠狠划下一道，墨线划过处留下模糊墨痕，纸面绽开细纹，字迹始终不可读，门外声音戛然而止；他低声说出判词；台灯抖了抖，镜头快速甩向玻璃窗：一个模糊人形正在转身，白裙一角一闪；再眨眼，玻璃上只剩他自己惨白的倒影。 对白（全部台词不面向镜头表演，口型与发声自然）：门外伪声，是他自己的音色，隔水回声，钟摆节奏：「陈默，答应我，不然我叫到天亮。」划裂纸条后他低声说，几乎咬着牙：「……原来你不是守则。你是替它说话的东西。」 结束状态：纸条裂开一道缝，玻璃恢复倒影，他持笔的手在抖。 音效：带水感回声的人声、笔尖划纸的滋啦、耳鸣顶点骤停、玻璃细碎裂纹声。 引用映射：@图片1（S2-03_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（sc2_duty_room.png）场景锚点图（锁定空间与光线）；@图片4（prop_rules_five.png）道具/屏幕参考图。",
+      "wan3EndState": "纸条裂开，玻璃恢复倒影",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-03_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/场景/sc2_duty_room.png",
+        "media/images/道具/prop_rules_five.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-04",
+      "sceneId": "sc3",
+      "segmentId": "S2-04",
+      "durationSec": 20,
+      "shotSize": "正反打",
+      "cameraMove": "固定机位对话正反打，两个机位切换，无推拉",
+      "characterIds": [
+        "chenmo",
+        "woman"
+      ],
+      "action": "黑西装女人报'017，昨晚十一点走的'；陈默翻登记簿：017号死亡时间20:00，差三小时；他追问'您确认是十一点'，女人语速没有一丝波动像背诵，指甲缝嵌黄泥",
+      "actionEn": "The woman states 'case 017, passed at eleven'; the ledger says 20:00 — three hours apart; Chen Mo asks her to confirm, her cadence becomes recitation, yellow soil under her nails",
+      "lines": [
+        {
+          "characterId": "woman",
+          "text": "我来认我丈夫。017。他昨晚十一点走的。",
+          "emotion": "sad"
+        },
+        {
+          "characterId": "chenmo",
+          "text": "节哀。017，男，58岁——家属这边……您确认是十一点？",
+          "emotion": "neutral"
+        },
+        {
+          "characterId": "woman",
+          "text": "十一点。他跟我说的，十一点。",
+          "emotion": "sad"
+        }
+      ],
+      "sfx": "纸页翻动、女声轻微混响异常",
+      "sfxEn": "page turn, faintly wrong reverb on female voice",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长20秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片4（登记台场景图）锁定水泥台、吊灯与警铃按钮位置；@图片2与@图片3锁定双人五官、发型、肤色与服装，全片生效。镜头参数：固定机位对话正反打，两个机位切换，无推拉。@图片1（四宫关键帧图）为主参考。@图片3（woman_ref.png）锁定女家属五官、黑色低马尾、黑西装白衬衫与指甲缝黄泥，全片生效对应的黑西装女人立在台前，双手交叠，指甲缝嵌新鲜黄泥，开口陈述；青年低头翻@图片5（登记簿），登记簿页面为模糊表格与手写痕迹，他指尖在某一行旁停住，不出现可读数字，抬眼追问一句；女人语速没有一丝波动地重复，像背诵；青年的眼神从职业礼貌冷下来。 对白（全部台词不面向镜头表演，口型与发声自然）：女人先开口，声音过于平稳，字与字间隔一致：「我来认我丈夫。017。他昨晚十一点走的。」青年翻簿确认后，职业化地开口，尾音放轻：「节哀。017，男，58岁——家属这边……您确认是十一点？」女人重复，语速零波动，像背书：「十一点。他跟我说的，十一点。」 结束状态：青年指尖移向台面下，女人仍保持交叠双手的姿势。 音效：纸页翻动、女声轻微异常混响。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 20s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-04; camera: 固定机位对话正反打，两个机位切换，无推拉. End state: 青年指尖移向台面下，女人仍保持交叠双手的姿势。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长20秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片4（登记台场景图）锁定水泥台、吊灯与警铃按钮位置；@图片2与@图片3锁定双人五官、发型、肤色与服装，全片生效。镜头参数：固定机位对话正反打，两个机位切换，无推拉。@图片1（四宫关键帧图）为主参考。@图片3（woman_ref.png）锁定女家属五官、黑色低马尾、黑西装白衬衫与指甲缝黄泥，全片生效对应的黑西装女人立在台前，双手交叠，指甲缝嵌新鲜黄泥，开口陈述；青年低头翻@图片5（登记簿），登记簿页面为模糊表格与手写痕迹，他指尖在某一行旁停住，不出现可读数字，抬眼追问一句；女人语速没有一丝波动地重复，像背诵；青年的眼神从职业礼貌冷下来。 对白（全部台词不面向镜头表演，口型与发声自然）：女人先开口，声音过于平稳，字与字间隔一致：「我来认我丈夫。017。他昨晚十一点走的。」青年翻簿确认后，职业化地开口，尾音放轻：「节哀。017，男，58岁——家属这边……您确认是十一点？」女人重复，语速零波动，像背书：「十一点。他跟我说的，十一点。」 结束状态：青年指尖移向台面下，女人仍保持交叠双手的姿势。 音效：纸页翻动、女声轻微异常混响。 引用映射：@图片1（S2-04_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（woman_ref.png）角色三视图（锁定外观）；@图片4（sc3_reception.png）场景锚点图（锁定空间与光线）；@图片5（prop_ledger.png）道具/屏幕参考图。",
+      "wan3EndState": "陈默指尖按向台面下",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-04_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/角色/woman_ref.png",
+        "media/images/场景/sc3_reception.png",
+        "media/images/道具/prop_ledger.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-05",
+      "sceneId": "sc3",
+      "segmentId": "S2-05",
+      "durationSec": 25,
+      "shotSize": "按钮特写→红灯旋转全景→地面特写",
+      "cameraMove": "固定机位，红灯光轨旋转营造动感，特写切换：按钮→扫脸→泥印→页边书写",
+      "characterIds": [
+        "chenmo",
+        "woman"
+      ],
+      "action": "陈默不解释不抬头，按下台面下红色警铃；电铃炸响全层灯明灭；红灯扫过，女人面容如隔水流动，散成一股烟；台面留下十个黄泥指印；登记簿'2'渗墨成圆；陈默在页边写下一行小字'4:00，假家属一名，已按铃'",
+      "actionEn": "He presses the hidden bell without a word; the alarm blares, lights flicker; under sweeping red light her face flows like water and disperses into smoke; ten soil prints remain; the ledger ink blooms",
+      "lines": [],
+      "sfx": "老式电铃、继电器嗒嗒、耳鸣3秒",
+      "sfxEn": "old alarm bell, relay clatter, 3s tinnitus",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长25秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片4（登记台场景图）锁定警铃按钮与红色警示灯位置；@图片2与@图片3锁定双人五官、发型、肤色与服装，全片生效。镜头参数：固定机位，红灯光轨旋转营造动感，特写切换：按钮→扫脸→泥印→页边书写。@图片1（四宫关键帧图）为主参考。特写：青年手指在台面下按下@图片5（警铃按钮）；老式电铃炸响，白炽吊灯随铃声明灭，红色警示灯旋转；红灯每次扫过，女人的面容如隔着流动的水重新组合——她的双眼始终锁定青年的位置，嘴角保持上扬弧度但眼睛没有笑意，随后无声溃散成一缕青烟被铃声撕碎；台面特写留下十个干净黄泥指印；登记簿\"20:00\"的\"2\"渗墨晕成圆；青年拿笔在页边划下几笔模糊的小字痕迹，不给文字特写。无台词。 对白：无台词。 结束状态：青烟散尽，泥印清晰，页边多出一行小字。 音效：尖锐电铃、灯光继电器嗒嗒、三秒高频耳鸣后归于安静、笔尖书写沙沙声。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 25s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-05; camera: 固定机位，红灯光轨旋转营造动感，特写切换：按钮→扫脸→泥印→页边书写. End state: 青烟散尽，泥印清晰，页边多出一行小字。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长25秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片4（登记台场景图）锁定警铃按钮与红色警示灯位置；@图片2与@图片3锁定双人五官、发型、肤色与服装，全片生效。镜头参数：固定机位，红灯光轨旋转营造动感，特写切换：按钮→扫脸→泥印→页边书写。@图片1（四宫关键帧图）为主参考。特写：青年手指在台面下按下@图片5（警铃按钮）；老式电铃炸响，白炽吊灯随铃声明灭，红色警示灯旋转；红灯每次扫过，女人的面容如隔着流动的水重新组合——她的双眼始终锁定青年的位置，嘴角保持上扬弧度但眼睛没有笑意，随后无声溃散成一缕青烟被铃声撕碎；台面特写留下十个干净黄泥指印；登记簿\"20:00\"的\"2\"渗墨晕成圆；青年拿笔在页边划下几笔模糊的小字痕迹，不给文字特写。无台词。 对白：无台词。 结束状态：青烟散尽，泥印清晰，页边多出一行小字。 音效：尖锐电铃、灯光继电器嗒嗒、三秒高频耳鸣后归于安静、笔尖书写沙沙声。 引用映射：@图片1（S2-05_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（woman_ref.png）角色三视图（锁定外观）；@图片4（sc3_reception.png）场景锚点图（锁定空间与光线）；@图片5（prop_bell.png）道具/屏幕参考图；@图片6（prop_ledger.png）道具/屏幕参考图。",
+      "wan3EndState": "泥印清晰，页边多出一行小字",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-05_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/角色/woman_ref.png",
+        "media/images/场景/sc3_reception.png",
+        "media/images/道具/prop_bell.png",
+        "media/images/道具/prop_ledger.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-06",
+      "sceneId": "sc2",
+      "segmentId": "S2-06",
+      "durationSec": 12,
+      "shotSize": "双人中近景→物件特写",
+      "cameraMove": "固定双人中近景，缓推至票根特写收尾，幅度小速度慢",
+      "characterIds": [
+        "chenmo",
+        "laozhou"
+      ],
+      "action": "老周扫视现场后摘下左耳耳塞，坦言三十年前答应了那声名字；他把牛皮纸记录本彻底推给陈默，本子里露出半张米黄票根——当值凭证",
+      "actionEn": "Lao Zhou removes his left earplug, admits he answered his name thirty years ago, and pushes the logbook over; a torn yellow voucher peeks out",
+      "lines": [
+        {
+          "characterId": "laozhou",
+          "text": "三十年前，有人叫我的名字，我答应了。就一个字，'哎'。",
+          "emotion": "neutral"
+        },
+        {
+          "characterId": "laozhou",
+          "text": "然后那声'哎'就归它了。它现在想用我的声音，随时能用。",
+          "emotion": "neutral"
+        }
+      ],
+      "sfx": "晨光外隐约公交声、纸页摩挲",
+      "sfxEn": "distant morning bus, paper shuffle",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长12秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。 镜头参数：固定双人中近景，缓推至票根特写收尾，幅度小速度慢。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片1（S2-06_grid.png）为四宫关键帧主参考，本段只演绎其第1、2帧的节奏（扫视现场与摘耳塞），不切镜，承接上一段警铃结束后的安静状态；@图片2（chenmo_ref.png）与@图片3（laozhou_ref.png）锁定老周五官、灰白寸头、深眼袋与藏青保安制服，全片生效，双人外观绑定；@图片4（sc2_duty_room.png）锁定晨光值班室。画面：老人目光缓慢扫过桌上裂开的纸条与泥印，最后落在青年脸上；他抬手摘下左耳耳塞，动作很稳，掌心那枚耳塞磨得发亮；青年神色震动。对白：老人摘下耳塞，声音沙哑平缓：「三十年前，有人叫我的名字，我答应了。就一个字，'哎'。」他顿了顿，像在说别人的事：「然后那声'哎'就归它了。它现在想用我的声音，随时能用。」全部台词低声自然，不面向镜头表演。 结束状态：耳塞已摘下，两人对视。音效：窗外隐约晨间公交声、纸页摩挲。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 20s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-06; camera: 固定双人中近景，缓推至票根特写收尾，幅度小速度慢. End state: 记录本与半张凭证停在青年面前，晨光落在纸页上。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长12秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。 镜头参数：固定双人中近景，缓推至票根特写收尾，幅度小速度慢。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片1（S2-06_grid.png）为四宫关键帧主参考，本段只演绎其第1、2帧的节奏（扫视现场与摘耳塞），不切镜，承接上一段警铃结束后的安静状态；@图片2（chenmo_ref.png）与@图片3（laozhou_ref.png）锁定老周五官、灰白寸头、深眼袋与藏青保安制服，全片生效，双人外观绑定；@图片4（sc2_duty_room.png）锁定晨光值班室。画面：老人目光缓慢扫过桌上裂开的纸条与泥印，最后落在青年脸上；他抬手摘下左耳耳塞，动作很稳，掌心那枚耳塞磨得发亮；青年神色震动。对白：老人摘下耳塞，声音沙哑平缓：「三十年前，有人叫我的名字，我答应了。就一个字，'哎'。」他顿了顿，像在说别人的事：「然后那声'哎'就归它了。它现在想用我的声音，随时能用。」全部台词低声自然，不面向镜头表演。 结束状态：耳塞已摘下，两人对视。音效：窗外隐约晨间公交声、纸页摩挲。 引用映射：@图片1（S2-06_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（laozhou_ref.png）角色三视图（锁定外观）；@图片4（sc2_duty_room.png）场景锚点图（锁定空间与光线）；@图片5（prop_voucher_half.png）道具/屏幕参考图；@图片6（prop_logbook.png）道具/屏幕参考图。",
+      "wan3EndState": "记录本与半张凭证在青年面前",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-06_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/角色/laozhou_ref.png",
+        "media/images/场景/sc2_duty_room.png",
+        "media/images/道具/prop_voucher_half.png",
+        "media/images/道具/prop_logbook.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-06B",
+      "sceneId": "sc2",
+      "segmentId": "S2-06B",
+      "durationSec": 8,
+      "shotSize": "双人中近景→物件特写",
+      "cameraMove": "固定双人中近景，缓推至票根特写收尾，幅度小速度慢",
+      "characterIds": [
+        "chenmo",
+        "laozhou"
+      ],
+      "action": "两人对视问答后，老人把记录本推过桌面，本子翻开露出印章，纸页间露出半张当值凭证",
+      "actionEn": "They exchange two lines; the old guard pushes the logbook over, it opens to the ring seal with a torn voucher between pages",
+      "lines": [
+        {
+          "characterId": "chenmo",
+          "text": "你守了三十年，守的是假守则？",
+          "emotion": "fear"
+        },
+        {
+          "characterId": "laozhou",
+          "text": "我分不出来。听不见的人，守着守着，就把假规则也守成真的了。",
+          "emotion": "neutral"
+        }
+      ],
+      "sfx": "晨光外隐约公交声、纸页摩挲",
+      "sfxEn": "distant morning bus, paper shuffle",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长8秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。 镜头参数：固定双人中近景，缓推至票根特写收尾，幅度小速度慢。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片1（S2-06_grid.png）为四宫关键帧主参考，本段只演绎其第3、4帧的节奏（问答与移交），不切镜，承接上一段耳塞已摘下、两人对视的状态。画面：青年低声发问；老人点头，平静回答；随后他把@图片6（prop_logbook.png）记录本沿桌面缓缓推过，本子滑行有真实摩擦与停顿，自行翻开露出扉页环形旧印章，纸页间露出@图片5（prop_voucher_half.png）半张米黄票根，撕痕整齐。对白：青年低声发问，语气里带着震动：「你守了三十年，守的是假守则？」老人点头，平静回答：「我分不出来。听不见的人，守着守着，就把假规则也守成真的了。」全部台词低声自然，不面向镜头表演。 结束状态：记录本与半张凭证停在青年面前，晨光落在纸页上。音效：纸页摩挲、窗外公交声远去。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 20s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-06; camera: 固定双人中近景，缓推至票根特写收尾，幅度小速度慢. End state: 记录本与半张凭证停在青年面前，晨光落在纸页上。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长8秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。 镜头参数：固定双人中近景，缓推至票根特写收尾，幅度小速度慢。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片1（S2-06_grid.png）为四宫关键帧主参考，本段只演绎其第3、4帧的节奏（问答与移交），不切镜，承接上一段耳塞已摘下、两人对视的状态。画面：青年低声发问；老人点头，平静回答；随后他把@图片6（prop_logbook.png）记录本沿桌面缓缓推过，本子滑行有真实摩擦与停顿，自行翻开露出扉页环形旧印章，纸页间露出@图片5（prop_voucher_half.png）半张米黄票根，撕痕整齐。对白：青年低声发问，语气里带着震动：「你守了三十年，守的是假守则？」老人点头，平静回答：「我分不出来。听不见的人，守着守着，就把假规则也守成真的了。」全部台词低声自然，不面向镜头表演。 结束状态：记录本与半张凭证停在青年面前，晨光落在纸页上。音效：纸页摩挲、窗外公交声远去。 引用映射：@图片1（S2-06_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（laozhou_ref.png）角色三视图（锁定外观）；@图片4（sc2_duty_room.png）场景锚点图（锁定空间与光线）；@图片5（prop_voucher_half.png）道具/屏幕参考图；@图片6（prop_logbook.png）道具/屏幕参考图。",
+      "wan3EndState": "记录本与半张凭证在青年面前",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-06_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/角色/laozhou_ref.png",
+        "media/images/场景/sc2_duty_room.png",
+        "media/images/道具/prop_voucher_half.png",
+        "media/images/道具/prop_logbook.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    },
+    {
+      "id": "S2-07",
+      "sceneId": "sc2",
+      "segmentId": "S2-07",
+      "durationSec": 10,
+      "shotSize": "屏幕特写→纵深全景",
+      "cameraMove": "手机屏幕特写固定→快速横摇甩向走廊纵深→固定收尾，甩摇幅度大速度快",
+      "characterIds": [
+        "chenmo",
+        "aheng"
+      ],
+      "action": "陈默手机自动亮起新的当值通知，点开'候补名单'——一列手写体名字，最下方高亮'陈默'；走廊尽头白裙女子无影而立，颔首走入晨光；他收起手机",
+      "actionEn": "His phone lights up with a new duty notice; he opens the 'standby roster' — a handwritten name list ending with his own highlighted; a shadowless white-dressed woman nods at the corridor's end and walks into the light; he pockets the phone",
+      "lines": [],
+      "sfx": "变调推送音、耳鸣余韵散尽、一声极轻的风",
+      "sfxEn": "warped notification chime, tinnitus fade, one faint wind sigh",
+      "motionPrompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长10秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片2锁定人物；@图片4（走廊场景图）锁定晨光走廊纵深。镜头参数：手机屏幕特写固定→快速横摇甩向走廊纵深→固定收尾，甩摇幅度大速度快。@图片1（四宫关键帧图）为主参考。特写：@图片5（候补名单界面）在陈默手机上亮起，一列模糊的手写体名字，最下方一行高亮发亮，隐约可辨是两个字的名字，不要求读清笔画；他拇指点开，瞳孔微缩；镜头快速横摇甩向敞开的防火门：@图片3（aheng_ref.png）锁定阿蘅五官、黑长直发遮半脸、白棉布裙与赤足，且其脚下始终没有影子，全片生效对应的白裙女子立在晨光尽头，赤足，晨光笔直穿过她的位置，地上没有她的影子；她转身走入光中，光里再无人形；青年按灭手机收进夹克内袋。无台词。 对白：无台词。 结束状态：走廊尽头空无一人，只有晨光，手机已收起。 音效：变调发闷的推送提示音、耳鸣余韵缓缓散尽、一声极轻如叹息的风。",
+      "motionPromptEn": "Omni-reference mode, 9:16, 10s, photoreal horror, cold teal. Main ref: 4-keyframe grid S2-07; camera: 手机屏幕特写固定→快速横摇甩向走廊纵深→固定收尾，甩摇幅度大速度快. End state: 走廊尽头空无一人，只有晨光，手机已收起。",
+      "wan3Mode": "reference",
+      "wan3Prompt": "全能参考模式，生成单镜头连续表演，不切镜，竖屏9:16，真人实拍质感，电影感冷青调色。 时长10秒。所有参考图仅用于锁定人物外观、空间结构、道具与表演状态，不作为画面内容插入成片；成片中不得出现任何镜头切换、硬切、黑场转场、分屏、画中画、四格拼贴、多画面同屏；四帧/四宫仅描述表演的节奏弧线，不描述镜头数量。两人同处一镜时，彼此的反应必须出现在同一画面构图内（前后景或左右站位），禁止为交代反应而分屏。帧锁定（光影与冷青调色全片保持一致，不换光不换色）：@图片2锁定人物；@图片4（走廊场景图）锁定晨光走廊纵深。镜头参数：手机屏幕特写固定→快速横摇甩向走廊纵深→固定收尾，甩摇幅度大速度快。@图片1（四宫关键帧图）为主参考。特写：@图片5（候补名单界面）在陈默手机上亮起，一列模糊的手写体名字，最下方一行高亮发亮，隐约可辨是两个字的名字，不要求读清笔画；他拇指点开，瞳孔微缩；镜头快速横摇甩向敞开的防火门：@图片3（aheng_ref.png）锁定阿蘅五官、黑长直发遮半脸、白棉布裙与赤足，且其脚下始终没有影子，全片生效对应的白裙女子立在晨光尽头，赤足，晨光笔直穿过她的位置，地上没有她的影子；她转身走入光中，光里再无人形；青年按灭手机收进夹克内袋。无台词。 对白：无台词。 结束状态：走廊尽头空无一人，只有晨光，手机已收起。 音效：变调发闷的推送提示音、耳鸣余韵缓缓散尽、一声极轻如叹息的风。 引用映射：@图片1（S2-07_grid.png）四宫关键帧主参考（本镜起承转合四帧）；@图片2（chenmo_ref.png）角色三视图（锁定外观）；@图片3（aheng_ref.png）角色三视图（锁定外观）；@图片4（sc1_corridor.png）场景锚点图（锁定空间与光线）；@图片5（prop_system_roster.png）道具/屏幕参考图。",
+      "wan3EndState": "女子没入晨光，手机收起",
+      "firstFramePath": null,
+      "lastFramePath": null,
+      "wan3ReferencePaths": [
+        "media/images/分镜/S2-07_grid.png",
+        "media/images/角色/chenmo_ref.png",
+        "media/images/角色/aheng_ref.png",
+        "media/images/场景/sc1_corridor.png",
+        "media/images/屏幕/prop_system_roster.png"
+      ],
+      "wan3ReferenceAudioUrls": [],
+      "requiresVoiceRef": false,
+      "frameApprovalStatus": "pending"
+    }
+  ]
+}
