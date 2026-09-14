@@ -8,5 +8,6 @@ node_modules/
 storage/**/地下三层/
 storage/**/人间渡/
 storage/**/昨晚在商K点了一个产品经理/
-images/
+src/images/
+漫剧agent/images
 tsconfig.tsbuildinfo
